@@ -1,0 +1,1310 @@
+Received: from SA3PR20MB7752.namprd20.prod.outlook.com (2603:10b6:806:493::11)
+ by IA1PR20MB5720.namprd20.prod.outlook.com with HTTPS; Wed, 24 Sep 2025
+ 15:03:27 +0000
+Received: from BYAPR01CA0044.prod.exchangelabs.com (2603:10b6:a03:94::21) by
+ SA3PR20MB7752.namprd20.prod.outlook.com (2603:10b6:806:493::11) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.9160.10; Wed, 24 Sep
+ 2025 15:03:23 +0000
+Received: from SJ1PEPF00002323.namprd03.prod.outlook.com
+ (2603:10b6:a03:94:cafe::68) by BYAPR01CA0044.outlook.office365.com
+ (2603:10b6:a03:94::21) with Microsoft SMTP Server (version=TLS1_3,
+ cipher=TLS_AES_256_GCM_SHA384) id 15.20.9137.21 via Frontend Transport; Wed,
+ 24 Sep 2025 15:03:59 +0000
+Authentication-Results: spf=softfail (sender IP is 67.231.154.164)
+ smtp.mailfrom=update.procore.com; dkim=pass (signature was verified)
+ header.d=update.procore.com;dmarc=pass action=none
+ header.from=update.procore.com;compauth=pass reason=100
+Received-SPF: SoftFail (protection.outlook.com: domain of transitioning
+ update.procore.com discourages use of 67.231.154.164 as permitted sender)
+Received: from dispatch1-us1.ppe-hosted.com (67.231.154.164) by
+ SJ1PEPF00002323.mail.protection.outlook.com (10.167.242.85) with Microsoft
+ SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384) id 15.20.9160.9
+ via Frontend Transport; Wed, 24 Sep 2025 15:03:22 +0000
+Authentication-Results-Original: ppe-hosted.com; spf=pass
+ smtp.mailfrom=update.procore.com; dkim=pass header.d=update.procore.com
+ header.s=scph0523; dmarc=pass header.from=update.procore.com
+ header.policy=none; 
+X-Virus-Scanned: Proofpoint Essentials engine
+Received: from v5krpf9y.update.procore.com (v5krpf9y.update.procore.com [137.22.225.98])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits))
+	(No client certificate requested)
+	by mx1-us1.ppe-hosted.com (PPE Hosted ESMTP Server) with ESMTPS id 92F78B800DA
+	for <estimating@michmech.com>; Wed, 24 Sep 2025 15:03:19 +0000 (UTC)
+X-MSFBL: l//j1FBxgljaUIVH4bzuYFhf9V8/Pcpp84iaXynK6+c=|eyJzdWJhY2NvdW50X2l
+	kIjoiODgwIiwiciI6ImVzdGltYXRpbmdAbWljaG1lY2guY29tIiwiY3VzdG9tZXJ
+	faWQiOiIyNjY2OTMiLCJ0ZW5hbnRfaWQiOiJzcGMiLCJtZXNzYWdlX2lkIjoiNjh
+	jNDM2MDhkNDY4NDExZjVmYTkifQ==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=update.procore.com;
+	s=scph0523; t=1758726198; i=@update.procore.com;
+	bh=x7fw05VjmR3u6lcPx1cuWxRKcFMBUITiYDqxzu/vH0E=;
+	h=From:Message-ID:Subject:To:Date:Content-Type:From:To:Cc:Subject;
+	b=0SqH1QMSXPJUk1NSV/y9tM90vzqxHnPzUOqNawYH3Qzo9mOZtfKeL/aPVV1VoYlj/
+	 AEDCsVZYhX7XV5C5KdRpyBUOn57BcHNd5o/SmYewA06mVpLnO5oA5jDK4aTrsFDXo+
+	 pWaLWYT4YgrVy4HEGm9CH63wdVrSaJMohO2SyeEM=
+Received: from [10.90.11.0] ([10.90.11.0])
+	by i-003b1fd951a8e785d.mta1vrest.sd.prd.sparkpost (ecelerity 5.1.0.74599 r(msys-ecelerity:tags/5.1.0.9)) with REST
+	id 9A/FD-16693-63804D86; Wed, 24 Sep 2025 15:03:18 +0000
+From: "Brad Kecskemeti (PCI Industries, Inc)" <notifications@update.procore.com>
+Message-ID: <9A.FD.16693.63804D86@i-003b1fd951a8e785d.mta1vrest.sd.prd.sparkpost>
+Subject: First Merchants Bank Royal Oak: Invitation to bid on First Merchants Bank
+Reply-To: bid-ce4d4d4491466703c44422cf6a1e8aed0689@procoretech.com
+To: estimating@michmech.com
+Date: Wed, 24 Sep 2025 15:03:18 +0000
+Content-Type: multipart/alternative; boundary="_----BJ9+CRD9XstT7ih0e0cWkA===_F5/FD-16693-63804D86"
+X-MDID: 1758726200-cvas06SFFM_u
+X-PPE-STACK: {"stack":"us1"}
+X-MDID-I: us1;at1;1758726200;cvas06SFFM_u;<msprvs1=20362QMuevCQK=bounces-266693-880@update.procore.com>;7d68534bf0e04d50d56f78e93bdbe5a2
+X-PPE-TRUSTED: V=1;DIR=IN;
+Return-Path: msprvs1=20362QMuevCQK=bounces-266693-880@update.procore.com
+X-MS-Exchange-Organization-ExpirationStartTime: 24 Sep 2025 15:03:23.2060
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: 8ef29a49-d9a0-4b1d-a252-08ddfb7b81b3
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: bc38725a-45a2-4f51-a8da-7f374b1b1cb7:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: SJ1PEPF00002323:EE_|SA3PR20MB7752:EE_|IA1PR20MB5720:EE_
+X-MS-Exchange-Organization-AuthSource: SJ1PEPF00002323.namprd03.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Office365-Filtering-Correlation-Id: 8ef29a49-d9a0-4b1d-a252-08ddfb7b81b3
+X-MS-Exchange-AtpMessageProperties: SA|SL
+X-MS-Exchange-Organization-SCL: -1
+X-Microsoft-Antispam: BCL:2;ARA:13230040|4092899012|12012899012|2092899012|3072899012|82310400026|13012899012|3092899012|13102899012|5062899012|4022899009|69100299015|13003099007|8096899003;
+X-Forefront-Antispam-Report: CIP:67.231.154.164;CTRY:US;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SFE;H:dispatch1-us1.ppe-hosted.com;PTR:dispatch1-us1.ppe-hosted.com;CAT:NONE;SFS:(13230040)(4092899012)(12012899012)(2092899012)(3072899012)(82310400026)(13012899012)(3092899012)(13102899012)(5062899012)(4022899009)(69100299015)(13003099007)(8096899003);DIR:INB;
+X-Auto-Response-Suppress: DR, OOF, AutoReply
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 24 Sep 2025 15:03:22.4194
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 8ef29a49-d9a0-4b1d-a252-08ddfb7b81b3
+X-MS-Exchange-CrossTenant-Id: bc38725a-45a2-4f51-a8da-7f374b1b1cb7
+X-MS-Exchange-CrossTenant-AuthSource: SJ1PEPF00002323.namprd03.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SA3PR20MB7752
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:04.8454428
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.9137.014
+X-Microsoft-Antispam-Mailbox-Delivery:
+	wl:1;pcwl:1;ucf:0;jmr:0;auth:0;dest:I;ENG:(910005)(944506478)(944626604)(920097)(811242)(255002)(410001)(930097)(140003);
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?MHJhTEIxYVVKMzJkK2FvUnIzRDFmWWJLdWw0cWRXelFvclBycTZoV0V0Nkt4?=
+ =?utf-8?B?Tnd6WGZzQ1hyTUNpNHRYL0hxMHN2OWgyRVJnZm44QkRJME9ycGtPN0NNQlZ6?=
+ =?utf-8?B?eTBweUx4UEJyNFpyTzJ1QndndC9WOFI4MGg4dzhHVmExTEtXRUxjQXdTSHRK?=
+ =?utf-8?B?d2dwZ0dMSm1qcnZmbUNZeE0zcGI5QkhYK3RtVVpkL1BuVEtuTGtXMDBaMDhl?=
+ =?utf-8?B?ck5iQS9ZWHBteGZiVVAxZitBOFJyRFAzWmpRcmZPdWUvenBYZXY1QUVCK2Fu?=
+ =?utf-8?B?ajM2YVF3MUY1M2ZDaXBDNTVBN2pwM0p2ZHY0V1pVVEdidGJ1eGx1dlFjMjdK?=
+ =?utf-8?B?WGZjdHM4aE9YcmNxUnc1VUVyeldqL08zM1VkeDFTd3gvME1LYklBb3lOWFAy?=
+ =?utf-8?B?eXE0N1RkQkh4RHhpekQ4U29VSm1aZXdJSWhXQ0F6Wmc1WWk0M1QvSVEwUVdw?=
+ =?utf-8?B?MzlsZ05KNkFCamJxci9UdGY2V2lodXNpTndtNUJBOEhBYmh0ZUt3aXRwRUhI?=
+ =?utf-8?B?Nkh3d1lXd2NsQTE1SDZoSU1ONU5xb1JtTS9CSWQzS1k0WUdFeitsbHJUUGJx?=
+ =?utf-8?B?SGk2Q1B4b2kzQUw1ZXB1YVR3ZHFuNDFSMW9GUWNvS3VWWmkrQmNySzlRcFJr?=
+ =?utf-8?B?enA1ME94d2cvay95N0tTUzNGWjN4bjIyRFlSSGxxRmFnQzRINzFkNzJsKzJ1?=
+ =?utf-8?B?VTZCRFQyNG9UR3ZLNVF1c056NUhUQlE5dGpINWNOd0tyaWJibkZCMHlua0pM?=
+ =?utf-8?B?LzRNVFI3TnVkOTRaak8wZS9wYnZMT1RUQU52ZFZLMVhYdW0rTDV2Z1hra0F3?=
+ =?utf-8?B?b0w0Q3dYTEtrc3MvWHJGWnZaSHNVbHFCcCthaCtHVmhUTE44ZE5QVzhlOFlB?=
+ =?utf-8?B?YVdxby9aNlAxWXc5NWJkd1VlSUQwT3JPT0NXV0p0N3JWdWV6TkFMd1VLNU9v?=
+ =?utf-8?B?K0REa21BaThUeGdMMklRaWZRR3dZc21lQTFrVXlsWWpNL2xva2RZbjdGV2xo?=
+ =?utf-8?B?WGdCTlpLTi9nRDJrUUlsd0ZyK2s2dFFsYjRSTUJSUjZKaWwvTVFzTXl0S2J0?=
+ =?utf-8?B?bUlaaG0va3p1Z0JEL096RzA4OGdXYUQxU0MwWnh3QmlsVmI0UjU1ZDNQMnRv?=
+ =?utf-8?B?WjE1czIrUXBib0ZQQUJIOFVVaVZzeGljZTlGVlNNZnlPMmVYdklvMHQ1eUJE?=
+ =?utf-8?B?NENPVFlVWm9mUndNd3B2STJCbXgyVUQ1NEJ5c1c0UVVvbE5SSUcxMHFNeStD?=
+ =?utf-8?B?ZzBPYXd3T0kvYVZITW15MllSOFBzNVQxUHhuZlNXK0orTDZORyt2REZQTFNn?=
+ =?utf-8?B?by9kUDdoTHc0UUh6S2p5alZ5MXlSUUwySlZsUW1wd3ZtNVFtUzNZNUZodktL?=
+ =?utf-8?B?ZEpJMDJJc3RRT3kwRjI2a3IxazdCU21mSXVPOWk1aUczNnJsNk5MQ3F1dzNI?=
+ =?utf-8?B?WTRPNEhBU2lTVzF6VjM4NTliVmg1WjNmdkVtTkI1bWp0NnhUampSZ01Nc0JJ?=
+ =?utf-8?B?VkNBcDQrbkU3bi9ERk5vMkdTTSt3VzVpckxqU2V2NU1RcnFqRFgyK2ZPQnY2?=
+ =?utf-8?B?dDNvTU5JSGxWR2pOcGptbThueGZXblNpUDEyMUhGV3VjWUxWU2k2WmRnWWgy?=
+ =?utf-8?B?WHQ0RHI0cWxjL0RFTDFlTmJ5a2pNSGpCMUxBNXdRbnBTZjRKYkJZL3dyTDRH?=
+ =?utf-8?B?cGtwdjZHU2QvQ1NidmdQbXlCSXZIWEIrZVNkbXZsWU9SR0RrdDdCZlh1eTUy?=
+ =?utf-8?B?SWUyaUM5Y3g0RXZvaDlHRnFjUDBWSFIvVlJOYmZIV3BhTFNoZnAyZURTcHJ0?=
+ =?utf-8?B?TFc0SkwrWjUyNGk3eHlldGo1SkpldXBCaEFrZXUzdFZrc0tKN1BFRVY0ZytV?=
+ =?utf-8?B?STIycTdHYXVRV1dKdy9RQ3B4UlJsY09Va3RwUWJnRjVrSVBxT1JkMlJUSjF5?=
+ =?utf-8?B?eldWeWorNDZQeW9hQmtoVmhoVEdzZTJ2eWJWMkFOV05KM2xsRlkzdC9ucEdh?=
+ =?utf-8?B?dmROT2NYK01mNThqeDgyQ1I0cW5CQVhWWGlyOUpMbWt3c01vLzh0RTVqZ1gv?=
+ =?utf-8?B?QTBNdUNhc0pqZFZ6TzFXVGRRTXRVN1BKNkxLeHo1cEhmOGFyOGNJemV3Ukdk?=
+ =?utf-8?B?dmIydDc5bmZxVXYrdUxiVURwL3ZHQ05mZnYxalY2OXJqaTNVcDh1MGQ0Njkr?=
+ =?utf-8?B?QkJKTkRiS29oNVZmMVc2SkhSK1EzL3EyMmpTWEFCVFdPZnJQZGdyM0lYUnk4?=
+ =?utf-8?B?a2Z0UWt0R0ZzNmYrSHhwYi9YYURNYlVRVmp5MVBVT1hUSnBHTllsUjNwdEFN?=
+ =?utf-8?B?VGprdzVKWnVWdC9WUjd3ZncwNngzc2tQS0FyYldtTjU5M1dLRXZncGNuRGtH?=
+ =?utf-8?B?ZDVJYVR0TFBGaE9IV2V5MVBEaEI2UFdKdDZmd29iWFJGNlp2Um1mY1RQcjdP?=
+ =?utf-8?B?T08vZjRSNjRMb0FJSzFWWGlsSUJ1N2pWendCVGRUeU5XNk9oYTVsS0ViQWF5?=
+ =?utf-8?B?eWg5WS9qaGpzKy9GYUU5ZDFmTk1kZmpHOGpmWXI5bnpIcThBV21DcFNwWnlR?=
+ =?utf-8?B?KzdRanBraWVPbGZ4TkhSMEM1bGJDSlpvRENIbG9wODhFYlVpRlo5VS9XeVRs?=
+ =?utf-8?B?cUdpd0k2dDE1R0IrQ2JySlJ3WUZGUjI5SXV3UlRpRXNqczBFUXh4VGVMREFW?=
+ =?utf-8?B?bzFlVXIwcmk4VWNoTk9pSUNzaTZhcFdIR0R4NDh2aTFXdXl3Z2I5Y2FTTGRz?=
+ =?utf-8?B?ODBHZXpsU2tsVEcvb2hja0UxZklLYjM5OU9LM0tqWEZQNjFUR1BpRGJiM1B2?=
+ =?utf-8?B?MFlpcnFtbmRVZkRkaWhuS2o5aE5QeHBoS3JkQTBMZ2V6REc4bTRSdnBjaUNI?=
+ =?utf-8?B?UmFlRVFQaVA2dE5zVzJiaVROQ09GenpnZUFuS1JmenBNRFFNbWN0eklxaVZk?=
+ =?utf-8?B?OWtPQW1mU3MzbnR2Zkt4OHVqd08xTHNNbzkyb1hZT3dRczExR0E9PQ==?=
+MIME-Version: 1.0
+
+--_----BJ9+CRD9XstT7ih0e0cWkA===_F5/FD-16693-63804D86
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="UTF-8"
+
+=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0AInformation Ico=
+n Bid Due: Friday, October 10, 2025 at 03:00 pm=0A=0APCI Industries, Inc=0A=
+=0AFirst Merchants Bank Royal Oak=0A=0APCI Industries, Inc=0A=0A***********=
+***********************=0AInvitation to Bid=0A*****************************=
+*****=0A=0A=0A<strong>Brad Kecskemeti</strong> from <strong>PCI Industries,=
+ Inc</strong> has <strong>invited you to bid</strong> on project <strong>Fi=
+rst Merchants Bank Royal Oak</strong>.=0A=0A=0AView in Procore (=0Ahttps://=
+click.procore.com/f/a/3hSGkXsNwxZysdnZzoQjSA~~/AAQRxRA~/BB5k5hfFecyaiVMN-Yu=
+xaQOzwGFJnsM1qKnakvML77-H9js8PVshGk9rP-A4HoMY7-xahId7DLWwFOLwA2JBkweKT_hni_=
+jr2gWdjjQRp6_YIeYiJzf3UhGpQTcRVAgqxM5QfeMYxxA3QOufr4-DRY4zC1l8_hWOHI_fAB_X4=
+1nlsk80gB73vdEce0Ou2iSD32zBmv54Fubt2F-1-TvyAA~~=3Flid=3D6ict7d3cveml )=0A=
+=0ADownload Documents (=0Ahttps://click.procore.com/f/a/c8JHHokuv3qT63TaJnJ=
+vsg~~/AAQRxRA~/mmZ2MY4i4Bz-VVnXWEUUU3eC9Vq12skgKRDQRaqVUkiPAZiTwh7EX27LgsTZ=
+aSilQwuU0cTrFfdiTQRQyPWuCxh7Bp65hXYs_msw6EhnFAoeQMHLTh1LgriT6ZL-DAoAybpf0aa=
+ESrZswjIl8K5ae7TJB9JKMz8VE4NPpDKg87jL6VyDw1rm5gV9efq6k-UKz1Vv-AIKbzE8KhPrdg=
+GqS-xmmzbwWaIsINLINRwJesih3a7dx85V4kAGdIwp-YL0TZo2LW3LNzi1Cxbz3BlYrQ~~ )=0A=
+=0A=0A=0ABid Submission via email=0A=0ATo submit a bid, reply to this email=
+ with an attachment.=0A=0A=0A=0ALet PCI Industries, Inc know if you <strong=
+>intend to bid</strong> on this project:=0A=0AWill Bid (=0Ahttps://click.pr=
+ocore.com/f/a/3bNJ5uvht90Z9gmHVreN8g~~/AAQRxRA~/GNIb6GwaXf6YH6GCaVlFNuZc7t_=
+SBSrRebE6Cbop5xTtkgV2TKalF7SU6zhtM3m_6bJOhX_o7Gs35yBDTw7GgXbY5cAcnGFE5eJNqx=
+tFtyDq3Jts8g9WdzoocF_u6wjSgcQoc9qMcZJS_72BO61s7FcsXwqh8aGe4mGVXVCHmK8gFB-WA=
+Uhfohv0Et946uID0ZT2k1ALvNvb2zrS6rjcJolefHw2VJeWopEFOiBPX9ymYA9o3bp_PqosSQQL=
+s6d9ZMcELFWiEvL7nknsPgOBLJs4Z9Um02o25GbGuyd3HRYDeAL6-r0Q5-itdZJoe7OlQRl17EQ=
+87OE80iUgCOEz-w~~&lid=3Dge0cxew9b8yr )=0AWill Not Bid (=0Ahttps://click.pro=
+core.com/f/a/Aet5bFvcAKhqb_hUr7YJTg~~/AAQRxRA~/MVvrErzFzhTK5SE5tRA6uOWrRkq7=
+xBUteaop-gd7MnxQP8gE5_qyPrgmACfGlsJpADdy1T3A_aLAQ6gajVQsSP_svskq7fpRFiMfYyQ=
+YyB1ABneCDmAf_l293rlDlagUrNJu0qn1yPMVqaeWdsa1EYs5zys90ZB2lUrki-VFBoZ5lM1mPD=
+0e1-3os9H8DxHVDOVB7b-PSGwvi6e9vqWOfDoVo7H5l0VgYe9EQY6AKuOjibGCYGOcGAvsi1LFs=
+OgfGHzEL01OjGxT_nGLNgX6MJ_EsXaHKk6TjsTLW9YaZd3x_PjTI-w1s1Md0jjmZiblqqPi4oPr=
+eHuV56z62EOrzA~~&lid=3Dzz58q27lyzmk )=0AProject Name=0A=0AFirst Merchants B=
+ank Royal Oak=0A=0ABid Package Name=0A=0AFirst Merchants Bank=0A=0A=0AProje=
+ct Information=0A=0A<p><strong>Project Information:</strong></p>=0A<p>PCI h=
+as been awarded the Construction Management contract for the First Merchant=
+s Buildout in Royal Oak, MI=C2=A0</p>=0A<p>=C2=A0</p>=0A<p><strong>Informat=
+ion Provided to Bidders:</strong></p>=0A<p>When submitting a proposal, the =
+bidder is deemed to have examined the site and Bid Documents, satisfied its=
+elf as to the sufficiency of the information provided, and that its proposa=
+l covers the cost of complying with all the requirements of the Bid Documen=
+ts and of all matters and things necessary for the due and proper performan=
+ce and completion of the Work.=C2=A0=C2=A0</p>=0A<p>=C2=A0</p>=0A<p><strong=
+>Pre-Bid Site Walk-thru:</strong></p>=0A<ul>=0A<li>Bidders may walk the sit=
+e at any time.=C2=A0 The suite is vacant and we are working on the floor.=
+=C2=A0 Please provide a minimum of 2 hour notice to the on-site PCI site su=
+perintendent - Al Reddick -248-881-4291.</li>=0A</ul>=0A<p><strong>Costs of=
+ Bidding and Acceptance of Bids:</strong></p>=0A<p>PCI=C2=A0reserves the ri=
+ght not to accept your offer or any other offer, and reserves the right to =
+reject any or all bids and to=C2=A0request a new round of bids, or to reque=
+st any or all bidders to submit a revised =E2=80=9Cbest and final=E2=80=9D =
+bid. =C2=A0PCI=C2=A0will=C2=A0not be obliged to give explanations should yo=
+ur proposal be unsuccessful.=C2=A0 PCI=C2=A0reserves the right to reject an=
+y or all of the bids/offers including but not limited to the lowest bid/off=
+er.=C2=A0 Under no circumstances shall PCI be held liable for the cost of p=
+reparing=C2=A0bids/offers.</p>=0A<p>=C2=A0</p>=0A<p><strong>RFI Procedure:<=
+/strong></p>=0A<ul>=0A<li>All RFIs shall be emailed to Brandon Pomish - <a =
+href=3D"mailto:brandonp@pcionesource.com">brandonp@pcionesource.com </a>and=
+ Brad Kecskemeti - bradk@pcionesource.com</li>=0A<li>RFIs are due to PCI by=
+ 10/3/25 at 1:00pm</li>=0A<li>All RFIs must be submitted in writing</li>=0A=
+<li>Do not submit pre-bid RFIs using Procore</li>=0A<li>All bidders will be=
+ copied on all RFI responses</li>=0A</ul>=0A<p><strong>Bid Submission Proce=
+dure:</strong></p>=0A<p>All bids shall be emailed to Brad Kecskemeti - <a h=
+ref=3D"mailto:bradk@pcioensoruce">bradk@pcioensoruce </a>and Brandon Pomish=
+ - brandonp@pcionesource.com</p>=0A=0AInstructions for Bidding=0A=0A<p>=C2=
+=A0 =C2=A0 =C2=A0For help with submitting a bid, please visit Procore's <a =
+href=3D"https://click.procore.com/f/a/6z0g3son20gmpREsOg3pUA~~/AAQRxRA~/t3U=
+HnCHzlY3RV5tzjtD6lPE-RVPIVK4hbMtqUMHJa3xG_jQDGsVqWUrwtb_3M9jyf48mhkI9aKUrRI=
+ySnlGFJaQVjgnl1qUiEU_3i5W_MsS4MUj0ibyPttQ2vzuI1ohSuK6HZIftWx01AKRuiDTty7o7F=
+yuRBmlGXDFzTnSyYwQdnns4-vdxiWntpmNeBm812Za5E06ZMjVqXcE048gYuhRFE8W9FluGM-7m=
+c9lHJq4~ support page</a>.</p><br> <p>See Project Information for details</=
+p>=0A=0AClient Details=0A=0ABrad Kecskemeti =E2=80=93 <a style=3D"text-deco=
+ration: none; color: #ff5100;" target=3D"_blank" href=3D"mailto:bradk@pcion=
+esource.com">bradk@pcionesource.com</a>=0A=0AOffice: (248) 542-2570, Mobile=
+: (248) 721-0616=0A=0APCI Industries, Inc - Oak Park, Michigan 48237 United=
+ States=0A=0A=0A=0A=0A=0A=0A=0A=0AView Bid Package & Submit Bid in Procore =
+(=0Ahttps://click.procore.com/f/a/3hSGkXsNwxZysdnZzoQjSA~~/AAQRxRA~/BB5k5hf=
+FecyaiVMN-YuxaQOzwGFJnsM1qKnakvML77-H9js8PVshGk9rP-A4HoMY7-xahId7DLWwFOLwA2=
+JBkweKT_hni_jr2gWdjjQRp6_YIeYiJzf3UhGpQTcRVAgqxM5QfeMYxxA3QOufr4-DRY4zC1l8_=
+hWOHI_fAB_X41nlsk80gB73vdEce0Ou2iSD32zBmv54Fubt2F-1-TvyAA~~=3Flid=3Dpyay2xs=
+eci8m )=0A=0A=0A=0AJoin the Procore Construction Network to receive more bi=
+ds=0Afor relevant work=0A=0AGet discovered and win more work by creating a =
+business page on=0Athe Procore Construction Network. Claim your free accoun=
+t to=0Aeasily build estimates, respond to bids, and manage your=0Aprojects.=
+=0A=0AJoin Network =0A( https://click.procore.com/f/a/GDBxEg4mXQUWp7F-9m-L_=
+Q~~/AAQRxRA~/60ar-cKZ3gBUpvNk9fWYP94k7JOl8PyeQ47WCrM4GMvtym8kuRTu6gyq4Kax_b=
+RrKlNQEvPZLEUsc2wE4G6c4Uxvv7uHWubqa5fZN4SJCvXpL66OivZaQ6xl1Luub0sRquvdAMn8r=
+ZgGEUNGhfnO6Q~~ )=0ALearn More =0A( https://click.procore.com/f/a/JlgSC3xiz=
+ELQl--8bWsNFg~~/AAQRxRA~/-MXYjpLur6-i6Atn345Km8joeqcEqiLv-k_DDWAiGjOY3WHtsB=
+LYBBIEoM_xrQtp4QDvROJZvZWYe7DsqyfAnR0wQCOm9_sV6aGNXOFZh14aW3I2XMYeYPr_IEgp-=
+G8af6r1h1vN3piKyH0KAgcpxT5H-ZDV0mTOnNsCmesItD4g9Si7Xk2w0vX6nbYic9g_lm6I7Rsi=
+isvPatkFjHiDtg~~ )=0A    =0A=0Asupport@procore.com | https://click.procore.=
+com/f/a/ojUZbpTg5hPOsJMlBPwJIA~~/AAQRxRA~/hmUpby0DhcYvMNXnRzok5G9suhtwy2WYN=
+V49CI_IlGtqKnmU4UlRwnQ3CSo2jXOpV5ah_jlrbJslCEMBwUTivY6i_dzdDUhcYdYDra3jR6uQ=
+BVcAEswsgPjuu41XupqF =0A( https://click.procore.com/f/a/VbsFF8NiAnAkNNWDnF0=
+9Kw~~/AAQRxRA~/Y1mspfcctaTThSMPhNJFK9gE65m462dbcu984VEIGm8AoXc671BoCSRYouDZ=
+MUgN6e8_zl2EVdKHoYbjGngaKDP2mo62XJwSpM9EEA13msDetGn5Ahef1COf4cwgepH5PrPl-O9=
+Txf2HCQb7fv4G3Q~~ )=0A=0A=0A=0AThis email address is unmonitored - Do not r=
+eply.=0A=0ATo unsubscribe, please check your settings or talk to your compa=
+ny administrator.=0A=0A=0A=0A=0A=0A=0A=0A
+--_----BJ9+CRD9XstT7ih0e0cWkA===_F5/FD-16693-63804D86
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="UTF-8"
+
+<!DOCTYPE html><html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"u=
+rn:schemas-microsoft-com:office:office" lang=3D"en"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><t=
+itle></title>=0A=
+=0A=
+<meta name=3D"viewport" content=3D"width=3Ddevice-width,initial-scale=3D1">=
+=0A=
+<!--[if mso]><xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPe=
+rInch><o:AllowPNG/></o:OfficeDocumentSettings></xml><![endif]--><!--[if !ms=
+o]><!--><!--<![endif]--><style>=0A=
+*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{c=
+olor:inherit!important;text-decoration:inherit!important}#MessageViewBody a=
+{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.de=
+sktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.im=
+age_block img+div{display:none}sub,sup{font-size:75%;line-height:0} @media =
+(max-width:620px){.mobile_hide{display:none}.row-13 .column-1 .block-1.butt=
+on_block .alignment a,.row-13 .column-1 .block-1.button_block .alignment di=
+v,.row-13 .column-2 .block-2.button_block .alignment a,.row-13 .column-2 .b=
+lock-2.button_block .alignment div,.row-15 .column-1 .block-1.button_block =
+.alignment a,.row-15 .column-1 .block-1.button_block .alignment div,.row-15=
+ .column-2 .block-1.button_block .alignment a,.row-15 .column-2 .block-1.bu=
+tton_block .alignment div,.row-70 .column-1 .block-1.button_block .alignmen=
+t a,.row-70 .column-1 .block-1.button_block .alignment div,.row-70 .column-=
+2 .block-1.button_block .alignment a,.row-70 .column-2 .block-1.button_bloc=
+k .alignment div,.row-content{width:100%!important}.stack .column{width:100=
+%;display:block}.mobile_hide{min-height:0;max-height:0;max-width:0;overflow=
+:hidden;font-size:0}.desktop_hide,.desktop_hide table{display:table!importa=
+nt;max-height:none!important}.reverse{display:table;width:100%}.reverse .co=
+lumn.first{display:table-footer-group!important}.reverse .column.last{displ=
+ay:table-header-group!important}.row-69 td.column.first .border{padding:20p=
+x 25px;border-top:4px solid transparent;border-right:4px solid transparent;=
+border-bottom:4px solid transparent;border-left:4px solid transparent}.row-=
+69 td.column.last .border{padding:5px 25px 5px 0;border-top:4px solid trans=
+parent;border-right:4px solid transparent;border-bottom:4px solid transpare=
+nt;border-left:4px solid transparent}.row-13 .column-1 .block-1.button_bloc=
+k td.pad,.row-13 .column-2 .block-2.button_block td.pad,.row-15 .column-1 .=
+block-1.button_block td.pad,.row-15 .column-2 .block-1.button_block td.pad{=
+padding:0!important}.row-13 .column-1 .block-1.button_block a,.row-13 .colu=
+mn-1 .block-1.button_block div,.row-13 .column-1 .block-1.button_block span=
+,.row-13 .column-2 .block-2.button_block a,.row-13 .column-2 .block-2.butto=
+n_block div,.row-13 .column-2 .block-2.button_block span,.row-15 .column-1 =
+.block-1.button_block a,.row-15 .column-1 .block-1.button_block div,.row-15=
+ .column-1 .block-1.button_block span,.row-15 .column-2 .block-1.button_blo=
+ck a,.row-15 .column-2 .block-1.button_block div,.row-15 .column-2 .block-1=
+.button_block span{line-height:28.8px!important}.row-16 .column-1 .block-1.=
+divider_block td.pad,.row-17 .column-1,.row-17 .column-2,.row-18 .column-1{=
+padding:0 24px!important}.row-16 .column-1 .block-1.divider_block .alignmen=
+t table{display:inline-table}.row-17 .column-1 .block-1.paragraph_block td.=
+pad,.row-17 .column-2 .block-1.paragraph_block td.pad,.row-18 .column-1 .bl=
+ock-2.paragraph_block td.pad,.row-18 .column-1 .block-4.paragraph_block td.=
+pad,.row-18 .column-1 .block-6.paragraph_block td.pad{padding:24px 0 0!impo=
+rtant}.row-21 .column-1 .block-1.paragraph_block td.pad,.row-28 .column-1 .=
+block-1.paragraph_block td.pad,.row-38 .column-1 .block-1.paragraph_block t=
+d.pad,.row-48 .column-1 .block-1.paragraph_block td.pad,.row-58 .column-1 .=
+block-1.paragraph_block td.pad{padding:24px 24px 0!important}.row-70 .colum=
+n-1 .block-1.button_block td.pad{padding:2px 0!important}.row-70 .column-1 =
+.block-1.button_block a,.row-70 .column-1 .block-1.button_block div,.row-70=
+ .column-1 .block-1.button_block span,.row-70 .column-2 .block-1.button_blo=
+ck a,.row-70 .column-2 .block-1.button_block div,.row-70 .column-2 .block-1=
+.button_block span{line-height:32px!important}.row-70 .column-2 .block-1.bu=
+tton_block td.pad{padding:2px 25px 22px!important}.row-3 .column-1{padding:=
+0 8px 0 0!important}.row-13 .column-1,.row-13 .column-2,.row-15 .column-1,.=
+row-15 .column-2{padding:8px 24px!important}.row-69 .column-1 .border{paddi=
+ng:20px 25px!important}.row-69 .column-2 .border{padding:5px 25px 5px 0!imp=
+ortant}.row-70 .column-1{padding:0 25px 25px!important}}=0A=
+</style>=0A=
+<!--[if mso ]><style>sup, sub { font-size: 100% !important; } sup { mso-tex=
+t-raise:10% } sub { mso-text-raise:-10% }</style> <![endif]-->=0A=
+</head>=0A=
+<body class=3D"body" style=3D"background-color:#f3f4f5;margin:0;padding:0;-=
+webkit-text-size-adjust:none;text-size-adjust:none">=0A=
+<div style=3D"display:none !important;visibility:hidden;mso-hide:all;font-s=
+ize:1px;color:#ffffff;line-height:1px;max-height:0px;max-width:0px;opacity:=
+0;overflow:hidden;">=0A=
+</div>=0A=
+<div style=3D"display:none !important;visibility:hidden;mso-hide:all;font-s=
+ize:1px;color:#ffffff;line-height:1px;max-height:0px;max-width:0px;opacity:=
+0;overflow:hidden;">=CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=
+=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=
+=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=
+=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=
+=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =
+=CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=
+=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =
+&nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=
+=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =
+=EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbs=
+p; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =
+=E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=
+=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =
+=E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=
+=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=
+=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=
+=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=
+=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =
+=CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=
+=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =
+&nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=
+=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =
+=EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbs=
+p; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =
+=E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=
+=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =
+=E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=
+=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=
+=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=
+=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=
+=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =
+=CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=
+=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =
+&nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=
+=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =
+=EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbs=
+p; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =
+=E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=
+=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =
+=E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=
+=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=
+=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=
+=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=
+=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =
+=CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=
+=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =
+&nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=
+=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =
+=EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbs=
+p; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =
+=E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=
+=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =
+=E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=
+=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=
+=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=
+=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=
+=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =
+=CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=
+=87 =EF=BB=BF =CD=8F =E2=80=8C &nbsp; =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =
+&nbsp; =E2=80=87 =EF=BB=BF </div>=0A=
+<table class=3D"nl-container" width=3D"100%" border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-ta=
+ble-rspace:0;background-color:#f3f4f5"><tbody><tr><td>=0A=
+<table class=3D"row row-1" align=3D"center" width=3D"100%" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-l=
+space:0;mso-table-rspace:0"><tbody><tr><td><table class=3D"row-content stac=
+k" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;border-rad=
+ius:0;color:#000;width:600px;margin:0 auto" width=3D"600"><tbody><tr><td cl=
+ass=3D"column column-1" width=3D"100%" style=3D"mso-table-lspace:0;mso-tabl=
+e-rspace:0;font-weight:400;text-align:left;vertical-align:top;border-top:0;=
+border-right:0;border-bottom:0;border-left:0"><table class=3D"html_block bl=
+ock-1" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0"><tr><td c=
+lass=3D"pad"><div style=3D"font-family:Sans-serif;text-align:center" align=
+=3D"center">=0A=
+<table class=3D"nl-container" width=3D"100%" border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-ta=
+ble-rspace:0;background-color:#f2f3f4"><tbody><tr><td><table class=3D"row r=
+ow-1" align=3D"center" width=3D"100%" border=3D"0" cellpadding=3D"0" cellsp=
+acing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rsp=
+ace:0"><tbody><tr><td><table class=3D"row-content stack" align=3D"center" b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=
+=3D"mso-table-lspace:0;mso-table-rspace:0;color:#000;width:100%;margin:0 au=
+to" width=3D"100%"><tbody><tr><td class=3D"column column-1" width=3D"100%" =
+style=3D"mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:l=
+eft;vertical-align:top;border-top:0;border-right:0;border-bottom:0;border-l=
+eft:0"><table class=3D"paragraph_block block-1" width=3D"100%" border=3D"0"=
+ cellpadding=3D"10" cellspacing=3D"0" role=3D"presentation" style=3D"mso-ta=
+ble-lspace:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad=
+"><div style=3D"color:#232729;direction:ltr;font-family:Lato,Arial,Sans-ser=
+if;font-size:14px;font-weight:400;letter-spacing:0;line-height:normal;text-=
+align:left;mso-line-height-alt:NaNpx">=0A=
+<p style=3D"margin:0;margin-bottom:0"></p>=0A=
+<p style=3D"margin:0;margin-bottom:0"></p>=0A=
+<p style=3D"margin:0;margin-bottom:0"></p>=0A=
+</div></td></tr></table></td></tr></tbody></table></td></tr></tbody></table=
+></td></tr></tbody></table>=0A=
+<!-- End -->=0A=
+</div></td></tr></table></td></tr></tbody></table></td></tr></tbody></table=
+>=0A=
+<table class=3D"row row-2" align=3D"center" width=3D"100%" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-l=
+space:0;mso-table-rspace:0"><tbody><tr><td><table class=3D"row-content stac=
+k" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;color:#000=
+;width:600px;margin:0 auto" width=3D"600"><tbody><tr><td class=3D"column co=
+lumn-1" width=3D"100%" style=3D"mso-table-lspace:0;mso-table-rspace:0;font-=
+weight:400;text-align:left;vertical-align:top;border-top:0;border-right:0;b=
+order-bottom:0;border-left:0">=0A=
+<div class=3D"spacer_block block-1" style=3D"height:30px;line-height:30px;f=
+ont-size:1px">=E2=80=8A</div>=0A=
+<table class=3D"paragraph_block block-2" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad"><div s=
+tyle=3D"color:#232729;direction:ltr;font-family:Sans-serif;font-size:14px;f=
+ont-weight:400;letter-spacing:0;line-height:normal;text-align:left;mso-line=
+-height-alt:NaNpx">=0A=
+<p style=3D"margin:0;margin-bottom:0"></p>=0A=
+<p style=3D"margin:0;margin-bottom:0">=0A=
+</p>=0A=
+<p style=3D"margin:0;margin-bottom:0">=0A=
+</p>=0A=
+<p style=3D"margin:0;margin-bottom:0">=0A=
+</p>=0A=
+<p style=3D"margin:0;margin-bottom:0">=0A=
+</p>=0A=
+<p style=3D"margin:0;margin-bottom:0"></p>=0A=
+<p style=3D"margin:0;margin-bottom:0"></p>=0A=
+<p style=3D"margin:0"></p>=0A=
+</div></td></tr></table>=0A=
+</td></tr></tbody></table></td></tr></tbody></table>=0A=
+<table class=3D"row row-3" align=3D"center" width=3D"100%" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-l=
+space:0;mso-table-rspace:0"><tbody><tr><td><table class=3D"row-content" ali=
+gn=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pres=
+entation" style=3D"mso-table-lspace:0;mso-table-rspace:0;background-color:#=
+edf3fc;border-left:8px solid #1a52b3;border-radius:6px;color:#000;width:600=
+px;margin:0 auto" width=3D"600"><tbody><tr>=0A=
+<td class=3D"column column-1" width=3D"16.666666666666668%" style=3D"mso-ta=
+ble-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;border-bott=
+om:4px solid transparent;border-left:4px solid transparent;border-right:4px=
+ solid transparent;border-top:4px solid transparent;padding-right:10px;vert=
+ical-align:middle"><table class=3D"image_block block-1" width=3D"100%" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D=
+"mso-table-lspace:0;mso-table-rspace:0"><tr><td class=3D"pad" style=3D"widt=
+h:100%"><div class=3D"alignment" align=3D"right" style=3D"line-height:10px"=
+><div style=3D"max-width:22px"><img src=3D"https://braze-images.com/appboy/=
+communication/assets/image_assets/images/64402e8dcb7e3b0050676047/original.=
+png?1681927821" style=3D"display:block;height:auto;border:0;width:100%" wid=
+th=3D"22" alt=3D"Information Icon" title=3D"Information Icon" height=3D"aut=
+o"></div></div></td></tr></table></td>=0A=
+<td class=3D"column column-2" width=3D"83.33333333333333%" style=3D"mso-tab=
+le-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;border-botto=
+m:2px solid transparent;border-left:2px solid transparent;border-right:2px =
+solid transparent;border-top:2px solid transparent;vertical-align:middle"><=
+table class=3D"paragraph_block block-1" width=3D"100%" border=3D"0" cellpad=
+ding=3D"10" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad"><div s=
+tyle=3D"color:#101b24;direction:ltr;font-family:Sans-serif;font-size:14px;f=
+ont-weight:400;letter-spacing:0;line-height:normal;text-align:left;mso-line=
+-height-alt:NaNpx"><p style=3D"margin:0"><strong>Bid Due: Friday, October 1=
+0, 2025 at 03:00 pm</strong></p></div></td></tr></table></td>=0A=
+</tr></tbody></table></td></tr></tbody></table>=0A=
+<table class=3D"row row-4" align=3D"center" width=3D"100%" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-l=
+space:0;mso-table-rspace:0"><tbody><tr><td><table class=3D"row-content stac=
+k" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;border-rad=
+ius:0;color:#000;width:600px;margin:0 auto" width=3D"600"><tbody><tr><td cl=
+ass=3D"column column-1" width=3D"100%" style=3D"mso-table-lspace:0;mso-tabl=
+e-rspace:0;font-weight:400;text-align:left;vertical-align:top;border-top:0;=
+border-right:0;border-bottom:0;border-left:0"><div class=3D"spacer_block bl=
+ock-1" style=3D"height:30px;line-height:30px;font-size:1px">=E2=80=8A</div>=
+</td></tr></tbody></table></td></tr></tbody></table>=0A=
+<table class=3D"row row-5" align=3D"center" width=3D"100%" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-l=
+space:0;mso-table-rspace:0"><tbody><tr><td><table class=3D"row-content" ali=
+gn=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pres=
+entation" style=3D"mso-table-lspace:0;mso-table-rspace:0;background-color:#=
+fff;border-radius:6px;color:#000;width:600px;margin:0 auto" width=3D"600"><=
+tbody><tr>=0A=
+<td class=3D"column column-1" width=3D"75%" style=3D"mso-table-lspace:0;mso=
+-table-rspace:0;font-weight:400;text-align:left;padding-bottom:20px;padding=
+-left:25px;padding-top:20px;vertical-align:middle;border-top:0;border-right=
+:0;border-bottom:0;border-left:0">=0A=
+<table class=3D"paragraph_block block-1" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad" style=
+=3D"padding-right:10px"><div style=3D"color:#101b24;direction:ltr;font-fami=
+ly:Sans-serif;font-size:14px;font-weight:400;letter-spacing:0;line-height:1=
+20%;text-align:left;mso-line-height-alt:16.8px"><p style=3D"margin:0">PCI I=
+ndustries, Inc</p></div></td></tr></table>=0A=
+<table class=3D"paragraph_block block-2" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad" style=
+=3D"padding-right:10px"><div style=3D"color:#101b24;direction:ltr;font-fami=
+ly:Sans-serif;font-size:16px;font-weight:700;letter-spacing:0;line-height:1=
+20%;text-align:left;mso-line-height-alt:19.2px"><p style=3D"margin:0"><stro=
+ng>First Merchants Bank Royal Oak</strong></p></div></td></tr></table>=0A=
+</td>=0A=
+<td class=3D"column column-2" width=3D"25%" style=3D"mso-table-lspace:0;mso=
+-table-rspace:0;font-weight:400;text-align:left;padding-bottom:10px;padding=
+-right:25px;padding-top:10px;vertical-align:middle;border-top:0;border-righ=
+t:0;border-bottom:0;border-left:0"><table class=3D"image_block block-1" wid=
+th=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presen=
+tation" style=3D"mso-table-lspace:0;mso-table-rspace:0"><tr><td class=3D"pa=
+d" style=3D"width:100%"><div class=3D"alignment" align=3D"center" style=3D"=
+line-height:10px"><div style=3D"max-width:125px"><img src=3D"https://storag=
+e.procore.com/api/v5/files/us-east-1/pro-core.com/companies/2652/01K47ZXZHM=
+7787NYJ3JFRVP1Z2?companyId=3D2562&amp;toolName=3Dadmin&amp;itemType=3Dproje=
+ct_logo&amp;itemId=3D3291517&amp;fileType=3Dprostore_file&amp;fileId=3D5664=
+808320&amp;sig=3D29ad603c9a219af398329d93837c5ac4ee75af8819ee0bcdcb4dfc78ff=
+b6980c" style=3D"display:block;height:auto;border:0;width:100%" width=3D"12=
+5" alt=3D"PCI Industries, Inc" title=3D"PCI Industries, Inc" height=3D"auto=
+"></div></div></td></tr></table></td>=0A=
+</tr></tbody></table></td></tr></tbody></table>=0A=
+<table class=3D"row row-6" align=3D"center" width=3D"100%" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-l=
+space:0;mso-table-rspace:0"><tbody><tr><td><table class=3D"row-content stac=
+k" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;border-rad=
+ius:0;color:#000;width:600px;margin:0 auto" width=3D"600"><tbody><tr><td cl=
+ass=3D"column column-1" width=3D"100%" style=3D"mso-table-lspace:0;mso-tabl=
+e-rspace:0;font-weight:400;text-align:left;vertical-align:top;border-top:0;=
+border-right:0;border-bottom:0;border-left:0"><div class=3D"spacer_block bl=
+ock-1" style=3D"height:30px;line-height:30px;font-size:1px">=E2=80=8A</div>=
+</td></tr></tbody></table></td></tr></tbody></table>=0A=
+<table class=3D"row row-7" align=3D"center" width=3D"100%" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-l=
+space:0;mso-table-rspace:0"><tbody><tr><td><table class=3D"row-content stac=
+k" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;background=
+-color:#fff;border-radius:6px 6px 0 0;color:#000;width:600px;margin:0 auto"=
+ width=3D"600"><tbody><tr><td class=3D"column column-1" width=3D"100%" styl=
+e=3D"mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;=
+padding-bottom:5px;padding-top:5px;vertical-align:top;border-top:0;border-r=
+ight:0;border-bottom:0;border-left:0"><table class=3D"heading_block block-1=
+" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"p=
+resentation" style=3D"mso-table-lspace:0;mso-table-rspace:0"><tr><td class=
+=3D"pad" style=3D"padding-bottom:10px;padding-left:25px;padding-right:25px;=
+padding-top:35px;text-align:center;width:100%">=0A=
+<h1 style=3D"margin:0;color:#2e3c47;direction:ltr;font-family:Sans-serif;fo=
+nt-size:34px;font-weight:700;letter-spacing:normal;line-height:120%;text-al=
+ign:left;margin-top:0;margin-bottom:0;mso-line-height-alt:40.8px"><span cla=
+ss=3D"tinyMce-placeholder" style=3D"word-break: break-word;">Invitation to =
+Bid</span></h1>=0A=
+</td></tr></table></td></tr></tbody></table></td></tr></tbody></table>=0A=
+<table class=3D"row row-8" align=3D"center" width=3D"100%" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-l=
+space:0;mso-table-rspace:0"><tbody><tr><td><table class=3D"row-content stac=
+k" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;border-rad=
+ius:0;color:#000;width:600px;margin:0 auto" width=3D"600">=0A=
+<tbody><tr><td class=3D"column column-1" width=3D"100%" style=3D"mso-table-=
+lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;vertical-align:=
+top;border-top:0;border-right:0;border-bottom:0;border-left:0"><table class=
+=3D"html_block block-1" width=3D"100%" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rs=
+pace:0"><tr><td class=3D"pad"><div style=3D"font-family:Sans-serif;text-ali=
+gn:center" align=3D"center"></div></td></tr></table></td></tr></tbody></tab=
+le></td></tr></tbody></table>=0A=
+<table class=3D"row row-11" align=3D"center" width=3D"100%" border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-=
+lspace:0;mso-table-rspace:0"><tbody><tr><td><table class=3D"row-content sta=
+ck" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;background=
+-color:#fff;border-radius:0;color:#000;width:600px;margin:0 auto" width=3D"=
+600"><tbody><tr><td class=3D"column column-1" width=3D"100%" style=3D"mso-t=
+able-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;vertical-a=
+lign:top;border-top:0;border-right:0;border-bottom:0;border-left:0"><table =
+class=3D"paragraph_block block-1" width=3D"100%" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;=
+mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad" style=3D"pa=
+dding-bottom:15px;padding-left:25px;padding-right:25px;padding-top:10px"><d=
+iv style=3D"color:#101b24;direction:ltr;font-family:Sans-serif;font-size:14=
+px;font-weight:400;letter-spacing:0;line-height:normal;text-align:left;mso-=
+line-height-alt:NaNpx"><p style=3D"margin:0"><strong>Brad Kecskemeti</stron=
+g> from <strong>PCI Industries, Inc</strong> has <strong>invited you to bid=
+</strong> on project <strong>First Merchants Bank Royal Oak</strong>.</p></=
+div></td></tr></table></td></tr></tbody></table></td></tr></tbody></table>=
+=0A=
+<table class=3D"row row-12" align=3D"center" width=3D"100%" border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-=
+lspace:0;mso-table-rspace:0"><tbody><tr><td><table class=3D"row-content sta=
+ck" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;border-rad=
+ius:0;color:#000;width:600px;margin:0 auto" width=3D"600"><tbody><tr><td cl=
+ass=3D"column column-1" width=3D"100%" style=3D"mso-table-lspace:0;mso-tabl=
+e-rspace:0;font-weight:400;text-align:left;vertical-align:top;border-top:0;=
+border-right:0;border-bottom:0;border-left:0"><table class=3D"html_block bl=
+ock-1" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0"><tr><td c=
+lass=3D"pad"><div style=3D"font-family:Sans-serif;text-align:center" align=
+=3D"center"></div></td></tr></table></td></tr></tbody></table></td></tr></t=
+body></table>=0A=
+<table class=3D"row row-13" align=3D"center" width=3D"100%" border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-=
+lspace:0;mso-table-rspace:0"><tbody><tr><td><table class=3D"row-content sta=
+ck" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;background=
+-color:#fff;border-radius:0;color:#000;width:600px;margin:0 auto" width=3D"=
+600"><tbody><tr>=0A=
+<td class=3D"column column-1" width=3D"50%" style=3D"mso-table-lspace:0;mso=
+-table-rspace:0;font-weight:400;text-align:left;padding-left:25px;vertical-=
+align:top;border-top:0;border-right:0;border-bottom:0;border-left:0"><table=
+ class=3D"button_block block-1" width=3D"100%" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-=
+table-rspace:0"><tr><td class=3D"pad" style=3D"padding-right:16px;text-alig=
+n:left"><div class=3D"alignment" align=3D"left">=0A=
+<!--[if mso]>=0A=
+<v:roundrect xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:w=3D"urn:schem=
+as-microsoft-com:office:word" href=3D"https://click.procore.com/f/a/jneDtCQ=
+Dzm_DFfkOx1_cAg~~/AAQRxRA~/YU8u81n0hqHFxRAuSpGJA1HTifHJzhKze1sBK9LbT1YVuQoy=
+lNQHuNhYMAiIxBb8xi9YSfrxN82cF4J0Vx4pSKXDQpignMKc6NumYeXqySVAHUzprS8oxhPSbOo=
+QoWBpsY3cy6GAcgHRiJbo_Wd9n6BkBPb_M-NSQv9RuhKxhQdxHRkwM7HJNgpe4kGHAZA9TNynwQ=
+uiRetgYX5u4ufNUDvH9zaFaRPVS94owSFxUvY~" style=3D"height:43px;width:259px;v-=
+text-anchor:middle;" arcsize=3D"10%" strokeweight=3D"0.75pt" strokecolor=3D=
+"#ff5100" fillcolor=3D"#ff5100">=0A=
+<w:anchorlock/>=0A=
+<v:textbox inset=3D"0px,0px,0px,0px">=0A=
+<center dir=3D"false" style=3D"color:#FFFFFF;font-family:sans-serif;font-si=
+ze:16px">=0A=
+<![endif]-->=0A=
+<a class=3D"button" href=3D"https://click.procore.com/f/a/jneDtCQDzm_DFfkOx=
+1_cAg~~/AAQRxRA~/YU8u81n0hqHFxRAuSpGJA1HTifHJzhKze1sBK9LbT1YVuQoylNQHuNhYMA=
+iIxBb8xi9YSfrxN82cF4J0Vx4pSKXDQpignMKc6NumYeXqySVAHUzprS8oxhPSbOoQoWBpsY3cy=
+6GAcgHRiJbo_Wd9n6BkBPb_M-NSQv9RuhKxhQdxHRkwM7HJNgpe4kGHAZA9TNynwQuiRetgYX5u=
+4ufNUDvH9zaFaRPVS94owSFxUvY~" target=3D"_blank" style=3D"background-color:#=
+ff5100;border-bottom:1px solid transparent;border-left:1px solid transparen=
+t;border-radius:4px;border-right:1px solid transparent;border-top:1px solid=
+ transparent;color:#FFFFFF;display:block;font-family:Sans-serif;font-size:1=
+6px;font-weight:400;mso-border-alt:none;padding-bottom:6px;padding-top:6px;=
+text-align:center;text-decoration:none;width:100%;word-break:keep-all;"><sp=
+an style=3D"word-break: break-word; padding-left: 10px; padding-right: 10px=
+; font-size: 16px; display: inline-block; letter-spacing: normal;"><span st=
+yle=3D"word-break: break-word; line-height: 28.8px;"><strong>View in Procor=
+e</strong></span></span></a>=0A=
+<!--[if mso]></center></v:textbox></v:roundrect><![endif]-->=0A=
+</div></td></tr></table></td>=0A=
+<td class=3D"column column-2" width=3D"50%" style=3D"mso-table-lspace:0;mso=
+-table-rspace:0;font-weight:400;text-align:left;padding-right:25px;vertical=
+-align:top;border-top:0;border-right:0;border-bottom:0;border-left:0">=0A=
+<table class=3D"html_block block-1" width=3D"100%" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;=
+mso-table-rspace:0"><tr><td class=3D"pad"><div style=3D"font-family:Sans-se=
+rif;text-align:center" align=3D"center"></div></td></tr></table>=0A=
+<table class=3D"button_block block-2" width=3D"100%" border=3D"0" cellpaddi=
+ng=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:=
+0;mso-table-rspace:0"><tr><td class=3D"pad" style=3D"text-align:left"><div =
+class=3D"alignment" align=3D"left">=0A=
+<!--[if mso]>=0A=
+<v:roundrect xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:w=3D"urn:schem=
+as-microsoft-com:office:word" href=3D"https://streaming.procoretech.com/dow=
+nload?uuid=3D07ac5029660fa77620bc834e73ca8aa8b5b0acf86d669ac79e44bf120f143b=
+63&company_id=3D2562&lid=3Ddx3kfetxbhwi" style=3D"height:71px;width:275px;v=
+-text-anchor:middle;" arcsize=3D"6%" strokeweight=3D"0.75pt" strokecolor=3D=
+"#D6DADC" fillcolor=3D"#ffffff">=0A=
+<w:anchorlock/>=0A=
+<v:textbox inset=3D"0px,0px,0px,0px">=0A=
+<center dir=3D"false" style=3D"color:#000000;font-family:sans-serif;font-si=
+ze:16px">=0A=
+<![endif]-->=0A=
+<a class=3D"button" href=3D"https://click.procore.com/f/a/c8JHHokuv3qT63TaJ=
+nJvsg~~/AAQRxRA~/mmZ2MY4i4Bz-VVnXWEUUU3eC9Vq12skgKRDQRaqVUkiPAZiTwh7EX27Lgs=
+TZaSilQwuU0cTrFfdiTQRQyPWuCxh7Bp65hXYs_msw6EhnFAoeQMHLTh1LgriT6ZL-DAoAybpf0=
+aaESrZswjIl8K5ae7TJB9JKMz8VE4NPpDKg87jL6VyDw1rm5gV9efq6k-UKz1Vv-AIKbzE8KhPr=
+dgGqS-xmmzbwWaIsINLINRwJesih3a7dx85V4kAGdIwp-YL0TZo2LW3LNzi1Cxbz3BlYrQ~~" t=
+arget=3D"_blank" style=3D"background-color:#ffffff;border-bottom:1px solid =
+#D6DADC;border-left:1px solid #D6DADC;border-radius:4px;border-right:1px so=
+lid #D6DADC;border-top:1px solid #D6DADC;color:#000000;display:block;font-f=
+amily:Sans-serif;font-size:16px;font-weight:400;mso-border-alt:none;padding=
+-bottom:6px;padding-top:6px;text-align:center;text-decoration:none;width:10=
+0%;word-break:keep-all;"><span style=3D"word-break: break-word; padding-lef=
+t: 10px; padding-right: 10px; font-size: 16px; display: inline-block; lette=
+r-spacing: normal;"><span style=3D"word-break: break-word; line-height: 28.=
+8px;"><strong>Download Documents</strong></span></span></a>=0A=
+<!--[if mso]></center></v:textbox></v:roundrect><![endif]-->=0A=
+</div></td></tr></table>=0A=
+<table class=3D"html_block block-3" width=3D"100%" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;=
+mso-table-rspace:0"><tr><td class=3D"pad"><div style=3D"font-family:Sans-se=
+rif;text-align:center" align=3D"center"></div></td></tr></table>=0A=
+</td>=0A=
+</tr></tbody></table></td></tr></tbody></table>=0A=
+<table class=3D"row row-14" align=3D"center" width=3D"100%" border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-=
+lspace:0;mso-table-rspace:0"><tbody><tr><td><table class=3D"row-content sta=
+ck" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;background=
+-color:#fff;border-radius:0;color:#000;width:600px;margin:0 auto" width=3D"=
+600"><tbody><tr><td class=3D"column column-1" width=3D"100%" style=3D"mso-t=
+able-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;vertical-a=
+lign:top;border-top:0;border-right:0;border-bottom:0;border-left:0">=0A=
+<table class=3D"paragraph_block block-1" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad"><div s=
+tyle=3D"color:#101b24;direction:ltr;font-family:Sans-serif;font-size:16px;f=
+ont-weight:400;letter-spacing:0;line-height:normal;text-align:left;mso-line=
+-height-alt:NaNpx"><p style=3D"margin:0"></p></div></td></tr></table>=0A=
+<table class=3D"paragraph_block block-2" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad" style=
+=3D"padding-left:25px;padding-right:25px;padding-top:10px"><div style=3D"co=
+lor:#101b24;direction:ltr;font-family:Sans-serif;font-size:16px;font-weight=
+:400;letter-spacing:0;line-height:normal;text-align:left;mso-line-height-al=
+t:NaNpx"><p style=3D"margin:0"><strong>Bid Submission via email</strong></p=
+></div></td></tr></table>=0A=
+<table class=3D"paragraph_block block-3" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad" style=
+=3D"padding-bottom:10px;padding-left:25px;padding-right:25px;padding-top:5p=
+x"><div style=3D"color:#101b24;direction:ltr;font-family:Sans-serif;font-si=
+ze:14px;font-weight:400;letter-spacing:0;line-height:normal;text-align:left=
+;mso-line-height-alt:NaNpx"><p style=3D"margin:0">To submit a bid, reply to=
+ this email with an attachment.</p></div></td></tr></table>=0A=
+<table class=3D"paragraph_block block-4" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad"><div s=
+tyle=3D"color:#101b24;direction:ltr;font-family:Sans-serif;font-size:16px;f=
+ont-weight:400;letter-spacing:0;line-height:normal;text-align:left;mso-line=
+-height-alt:NaNpx"><p style=3D"margin:0"></p></div></td></tr></table>=0A=
+<table class=3D"divider_block block-5" width=3D"100%" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace=
+:0;mso-table-rspace:0">=0A=
+<tr><td class=3D"pad" style=3D"padding-bottom:10px;padding-left:25px;paddin=
+g-right:25px;padding-top:10px"><div class=3D"alignment" align=3D"center"><t=
+able border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation"=
+ width=3D"100%" style=3D"mso-table-lspace:0;mso-table-rspace:0"><tr><td cla=
+ss=3D"divider_inner" style=3D"font-size:1px;line-height:1px;border-top:1px =
+solid #d6dadc"><span style=3D"word-break: break-word;">=E2=80=8A</span></td=
+></tr></table></div></td></tr>=0A=
+</table>=0A=
+<table class=3D"paragraph_block block-6" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad" style=
+=3D"padding-bottom:15px;padding-left:25px;padding-right:25px;padding-top:10=
+px"><div style=3D"color:#101b24;direction:ltr;font-family:Sans-serif;font-s=
+ize:16px;font-weight:400;letter-spacing:0;line-height:normal;text-align:lef=
+t;mso-line-height-alt:NaNpx"><p style=3D"margin:0">=0A=
+Let PCI Industries, Inc know if you <strong>intend to bid</strong> on this =
+project:</p></div></td></tr></table>=0A=
+</td></tr></tbody></table></td></tr></tbody></table>=0A=
+<table class=3D"row row-15" align=3D"center" width=3D"100%" border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-=
+lspace:0;mso-table-rspace:0"><tbody><tr><td><table class=3D"row-content sta=
+ck" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;background=
+-color:#fff;border-radius:0;color:#000;width:600px;margin:0 auto" width=3D"=
+600"><tbody><tr>=0A=
+<td class=3D"column column-1" width=3D"50%" style=3D"mso-table-lspace:0;mso=
+-table-rspace:0;font-weight:400;text-align:left;padding-left:25px;vertical-=
+align:top;border-top:0;border-right:0;border-bottom:0;border-left:0"><table=
+ class=3D"button_block block-1" width=3D"100%" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-=
+table-rspace:0"><tr><td class=3D"pad" style=3D"padding-right:16px;text-alig=
+n:left"><div class=3D"alignment" align=3D"left">=0A=
+<!--[if mso]>=0A=
+<v:roundrect xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:w=3D"urn:schem=
+as-microsoft-com:office:word" href=3D"https://click.procore.com/f/a/hCNfGer=
+_1W3OnW4FVl3SFA~~/AAQRxRA~/_qxmkCgBMZcp5rFxKSjsEWAfudyyKGUvKcIrQGFvKYds09F_=
+Ht3JCYlu5xvHJxki-50V0BFMTTN6amBMcQP34JvT-2J4ty4MgLL7f7WjBmkHb-SSnsAdzhuGU3O=
+_RjnF1QrVhvZK_Pw9DN6B_0PrTf1cCgPMwgGjxL67niZAHf7aNF5jkePObCb87VkflfN23iIoX-=
+U1WLR19Q2_uz8BdT7C25pchTuaaq8vaJ0F0tusbVo_Ul2Q9Mg_4jdqWc869kcqLc5AMOa6LXsb5=
+JYubZDnWc2gA32otvwfzH0rMwUip59jxFSVDQmOz7jzYn6mUzOKL9txe36IGrUldn21MIXaYgbY=
+VpRJgKpQAaJcdkY~" style=3D"height:43px;width:259px;v-text-anchor:middle;" a=
+rcsize=3D"10%" strokeweight=3D"0.75pt" strokecolor=3D"#d6dadc" fillcolor=3D=
+"#d6dadc">=0A=
+<w:anchorlock/>=0A=
+<v:textbox inset=3D"0px,0px,0px,0px">=0A=
+<center dir=3D"false" style=3D"color:#000000;font-family:sans-serif;font-si=
+ze:16px">=0A=
+<![endif]-->=0A=
+<a class=3D"button" href=3D"https://click.procore.com/f/a/hCNfGer_1W3OnW4FV=
+l3SFA~~/AAQRxRA~/_qxmkCgBMZcp5rFxKSjsEWAfudyyKGUvKcIrQGFvKYds09F_Ht3JCYlu5x=
+vHJxki-50V0BFMTTN6amBMcQP34JvT-2J4ty4MgLL7f7WjBmkHb-SSnsAdzhuGU3O_RjnF1QrVh=
+vZK_Pw9DN6B_0PrTf1cCgPMwgGjxL67niZAHf7aNF5jkePObCb87VkflfN23iIoX-U1WLR19Q2_=
+uz8BdT7C25pchTuaaq8vaJ0F0tusbVo_Ul2Q9Mg_4jdqWc869kcqLc5AMOa6LXsb5JYubZDnWc2=
+gA32otvwfzH0rMwUip59jxFSVDQmOz7jzYn6mUzOKL9txe36IGrUldn21MIXaYgbYVpRJgKpQAa=
+JcdkY~" target=3D"_blank" style=3D"background-color:#d6dadc;border-bottom:1=
+px solid transparent;border-left:1px solid transparent;border-radius:4px;bo=
+rder-right:1px solid transparent;border-top:1px solid transparent;color:#00=
+0000;display:block;font-family:Sans-serif;font-size:16px;font-weight:400;ms=
+o-border-alt:none;padding-bottom:6px;padding-top:6px;text-align:center;text=
+-decoration:none;width:100%;word-break:keep-all;"><span style=3D"word-break=
+: break-word; padding-left: 10px; padding-right: 10px; font-size: 16px; dis=
+play: inline-block; letter-spacing: normal;"><span style=3D"word-break: bre=
+ak-word; line-height: 28.8px;"><strong>Will Bid</strong></span></span></a>=
+=0A=
+<!--[if mso]></center></v:textbox></v:roundrect><![endif]-->=0A=
+</div></td></tr></table></td>=0A=
+<td class=3D"column column-2" width=3D"50%" style=3D"mso-table-lspace:0;mso=
+-table-rspace:0;font-weight:400;text-align:left;padding-right:25px;vertical=
+-align:top;border-top:0;border-right:0;border-bottom:0;border-left:0"><tabl=
+e class=3D"button_block block-1" width=3D"100%" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso=
+-table-rspace:0"><tr><td class=3D"pad" style=3D"text-align:left"><div class=
+=3D"alignment" align=3D"left">=0A=
+<!--[if mso]>=0A=
+<v:roundrect xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:w=3D"urn:schem=
+as-microsoft-com:office:word" href=3D"https://click.procore.com/f/a/-tHACc1=
+WpYD76y6Sje8JEA~~/AAQRxRA~/hdzNeJ38bvf8mIQ-BcaSq2crFZNAe5Q8w1qB8kMfiZa2ndBS=
+vz1o_X9pNEP-1jIn7k2YSlvv-53mqOaDPYc4VHPzQfu_NW9MXG_KPe9ZgxEO0Xcmwn3qEBeMb5E=
+zKiDBtNi0AaR2mjhpLLcWnHteBHAY2xhwPKZar6L9jBqK2FwCMWOZcOIU_e7GCKm2iejPhM-Fa7=
+lWDsIvjkrFGlxeu3TdrznZxyQjKqnDTwQ0eycY39W2kAwnlnooVN2aVgub6_E-06kdyx7zRzdnj=
+PZ2pZQDwSd_85f1PgjbaC2dSNvlkTtFuBZ0BhVmBI_mWPJU3Q1lnh7WKuo_92VlRxqx4qTwAfn2=
+u7ZMhcStTiuqids~" style=3D"height:43px;width:275px;v-text-anchor:middle;" a=
+rcsize=3D"10%" strokeweight=3D"0.75pt" strokecolor=3D"#D6DADC" fillcolor=3D=
+"#d6dadc">=0A=
+<w:anchorlock/>=0A=
+<v:textbox inset=3D"0px,0px,0px,0px">=0A=
+<center dir=3D"false" style=3D"color:#000000;font-family:sans-serif;font-si=
+ze:16px">=0A=
+<![endif]-->=0A=
+<a class=3D"button" href=3D"https://click.procore.com/f/a/-tHACc1WpYD76y6Sj=
+e8JEA~~/AAQRxRA~/hdzNeJ38bvf8mIQ-BcaSq2crFZNAe5Q8w1qB8kMfiZa2ndBSvz1o_X9pNE=
+P-1jIn7k2YSlvv-53mqOaDPYc4VHPzQfu_NW9MXG_KPe9ZgxEO0Xcmwn3qEBeMb5EzKiDBtNi0A=
+aR2mjhpLLcWnHteBHAY2xhwPKZar6L9jBqK2FwCMWOZcOIU_e7GCKm2iejPhM-Fa7lWDsIvjkrF=
+Glxeu3TdrznZxyQjKqnDTwQ0eycY39W2kAwnlnooVN2aVgub6_E-06kdyx7zRzdnjPZ2pZQDwSd=
+_85f1PgjbaC2dSNvlkTtFuBZ0BhVmBI_mWPJU3Q1lnh7WKuo_92VlRxqx4qTwAfn2u7ZMhcStTi=
+uqids~" target=3D"_blank" style=3D"background-color:#d6dadc;border-bottom:1=
+px solid #D6DADC;border-left:1px solid #D6DADC;border-radius:4px;border-rig=
+ht:1px solid #D6DADC;border-top:1px solid #D6DADC;color:#000000;display:blo=
+ck;font-family:Sans-serif;font-size:16px;font-weight:400;mso-border-alt:non=
+e;padding-bottom:6px;padding-top:6px;text-align:center;text-decoration:none=
+;width:100%;word-break:keep-all;"><span style=3D"word-break: break-word; pa=
+dding-left: 10px; padding-right: 10px; font-size: 16px; display: inline-blo=
+ck; letter-spacing: normal;"><span style=3D"word-break: break-word; line-he=
+ight: 28.8px;"><strong>Will Not Bid</strong></span></span></a>=0A=
+<!--[if mso]></center></v:textbox></v:roundrect><![endif]-->=0A=
+</div></td></tr></table></td>=0A=
+</tr></tbody></table></td></tr></tbody></table>=0A=
+<table class=3D"row row-16" align=3D"center" width=3D"100%" border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-=
+lspace:0;mso-table-rspace:0"><tbody><tr><td><table class=3D"row-content sta=
+ck" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;background=
+-color:#fff;border-radius:0;color:#000;width:600px;margin:0 auto" width=3D"=
+600"><tbody><tr><td class=3D"column column-1" width=3D"100%" style=3D"mso-t=
+able-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;padding-bo=
+ttom:5px;padding-top:5px;vertical-align:top;border-top:0;border-right:0;bor=
+der-bottom:0;border-left:0"><table class=3D"divider_block block-1" width=3D=
+"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentatio=
+n" style=3D"mso-table-lspace:0;mso-table-rspace:0">=0A=
+<tr><td class=3D"pad" style=3D"padding-bottom:10px;padding-left:25px;paddin=
+g-right:25px;padding-top:10px"><div class=3D"alignment" align=3D"center"><t=
+able border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation"=
+ width=3D"100%" style=3D"mso-table-lspace:0;mso-table-rspace:0"><tr><td cla=
+ss=3D"divider_inner" style=3D"font-size:1px;line-height:1px;border-top:1px =
+solid #d6dadc"><span style=3D"word-break: break-word;">=E2=80=8A</span></td=
+></tr></table></div></td></tr>=0A=
+</table></td></tr></tbody></table></td></tr></tbody></table>=0A=
+<table class=3D"row row-17" align=3D"center" width=3D"100%" border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-=
+lspace:0;mso-table-rspace:0"><tbody><tr><td><table class=3D"row-content sta=
+ck" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;background=
+-color:#fff;border-radius:0;color:#000;width:600px;margin:0 auto" width=3D"=
+600"><tbody><tr>=0A=
+<td class=3D"column column-1" width=3D"50%" style=3D"mso-table-lspace:0;mso=
+-table-rspace:0;font-weight:400;text-align:left;padding-bottom:5px;padding-=
+left:25px;padding-top:15px;vertical-align:top;border-top:0;border-right:0;b=
+order-bottom:0;border-left:0"><table class=3D"paragraph_block block-1" widt=
+h=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"present=
+ation" style=3D"mso-table-lspace:0;mso-table-rspace:0;word-break:break-word=
+"><tr><td class=3D"pad"><div style=3D"color:#101b24;direction:ltr;font-fami=
+ly:Sans-serif;font-size:14px;font-weight:400;letter-spacing:0;line-height:1=
+50%;text-align:left;mso-line-height-alt:21px">=0A=
+<p style=3D"margin:0;margin-bottom:0"><strong>Project Name</strong></p>=0A=
+<p style=3D"margin:0">First Merchants Bank Royal Oak</p>=0A=
+</div></td></tr></table></td>=0A=
+<td class=3D"column column-2" width=3D"50%" style=3D"mso-table-lspace:0;mso=
+-table-rspace:0;font-weight:400;text-align:left;padding-bottom:5px;padding-=
+right:25px;padding-top:15px;vertical-align:top;border-top:0;border-right:0;=
+border-bottom:0;border-left:0"><table class=3D"paragraph_block block-1" wid=
+th=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presen=
+tation" style=3D"mso-table-lspace:0;mso-table-rspace:0;word-break:break-wor=
+d"><tr><td class=3D"pad"><div style=3D"color:#101b24;direction:ltr;font-fam=
+ily:Sans-serif;font-size:14px;font-weight:400;letter-spacing:0;line-height:=
+150%;text-align:left;mso-line-height-alt:21px">=0A=
+<p style=3D"margin:0;margin-bottom:0"><strong>Bid Package Name</strong></p>=
+=0A=
+<p style=3D"margin:0">First Merchants Bank</p>=0A=
+</div></td></tr></table></td>=0A=
+</tr></tbody></table></td></tr></tbody></table>=0A=
+<table class=3D"row row-18" align=3D"center" width=3D"100%" border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-=
+lspace:0;mso-table-rspace:0"><tbody><tr><td><table class=3D"row-content" al=
+ign=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pre=
+sentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;background-color:=
+#fff;border-radius:0;color:#000;width:600px;margin:0 auto" width=3D"600"><t=
+body><tr><td class=3D"column column-1" width=3D"100%" style=3D"mso-table-ls=
+pace:0;mso-table-rspace:0;font-weight:400;text-align:left;padding-left:25px=
+;padding-right:25px;vertical-align:top;border-top:0;border-right:0;border-b=
+ottom:0;border-left:0">=0A=
+<table class=3D"html_block block-1" width=3D"100%" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;=
+mso-table-rspace:0"><tr><td class=3D"pad"><div style=3D"font-family:Sans-se=
+rif;text-align:center" align=3D"center"></div></td></tr></table>=0A=
+<table class=3D"paragraph_block block-4" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad" style=
+=3D"padding-top:30px"><div style=3D"color:#101b24;direction:ltr;font-family=
+:Sans-serif;font-size:14px;font-weight:400;letter-spacing:0;line-height:150=
+%;text-align:left;mso-line-height-alt:21px">=0A=
+<p style=3D"margin:0;margin-bottom:0"><strong>Project Information</strong><=
+/p>=0A=
+<p style=3D"margin:0"><p><strong>Project Information:</strong></p>=0A=
+<p>PCI has been awarded the Construction Management contract for the First =
+Merchants Buildout in Royal Oak, MI&nbsp;</p>=0A=
+<p>&nbsp;</p>=0A=
+<p><strong>Information Provided to Bidders:</strong></p>=0A=
+<p>When submitting a proposal, the bidder is deemed to have examined the si=
+te and Bid Documents, satisfied itself as to the sufficiency of the informa=
+tion provided, and that its proposal covers the cost of complying with all =
+the requirements of the Bid Documents and of all matters and things necessa=
+ry for the due and proper performance and completion of the Work.&nbsp;&nbs=
+p;</p>=0A=
+<p>&nbsp;</p>=0A=
+<p><strong>Pre-Bid Site Walk-thru:</strong></p>=0A=
+<ul>=0A=
+<li>Bidders may walk the site at any time.&nbsp; The suite is vacant and we=
+ are working on the floor.&nbsp; Please provide a minimum of 2 hour notice =
+to the on-site PCI site superintendent - Al Reddick -248-881-4291.</li>=0A=
+</ul>=0A=
+<p><strong>Costs of Bidding and Acceptance of Bids:</strong></p>=0A=
+<p>PCI&nbsp;reserves the right not to accept your offer or any other offer,=
+ and reserves the right to reject any or all bids and to&nbsp;request a new=
+ round of bids, or to request any or all bidders to submit a revised =E2=80=
+=9Cbest and final=E2=80=9D bid. &nbsp;PCI&nbsp;will&nbsp;not be obliged to =
+give explanations should your proposal be unsuccessful.&nbsp; PCI&nbsp;rese=
+rves the right to reject any or all of the bids/offers including but not li=
+mited to the lowest bid/offer.&nbsp; Under no circumstances shall PCI be he=
+ld liable for the cost of preparing&nbsp;bids/offers.</p>=0A=
+<p>&nbsp;</p>=0A=
+<p><strong>RFI Procedure:</strong></p>=0A=
+<ul>=0A=
+<li>All RFIs shall be emailed to Brandon Pomish - <a href=3D"mailto:brandon=
+p@pcionesource.com">brandonp@pcionesource.com </a>and Brad Kecskemeti - bra=
+dk@pcionesource.com</li>=0A=
+<li>RFIs are due to PCI by 10/3/25 at 1:00pm</li>=0A=
+<li>All RFIs must be submitted in writing</li>=0A=
+<li>Do not submit pre-bid RFIs using Procore</li>=0A=
+<li>All bidders will be copied on all RFI responses</li>=0A=
+</ul>=0A=
+<p><strong>Bid Submission Procedure:</strong></p>=0A=
+<p>All bids shall be emailed to Brad Kecskemeti - <a href=3D"mailto:bradk@p=
+cioensoruce">bradk@pcioensoruce </a>and Brandon Pomish - brandonp@pcionesou=
+rce.com</p></p>=0A=
+</div></td></tr></table>=0A=
+<table class=3D"paragraph_block block-5" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad" style=
+=3D"padding-top:30px"><div style=3D"color:#101b24;direction:ltr;font-family=
+:Sans-serif;font-size:14px;font-weight:400;letter-spacing:0;line-height:150=
+%;text-align:left;mso-line-height-alt:21px">=0A=
+<p style=3D"margin:0;margin-bottom:0"><strong>Instructions for Bidding</str=
+ong></p>=0A=
+<p style=3D"margin:0"><p>&nbsp; &nbsp; &nbsp;For help with submitting a bid=
+, please visit Procore's <a href=3D"https://click.procore.com/f/a/RrtTO8YXW=
+04Bq3apj5jV4w~~/AAQRxRA~/NGNydafSD8rCbcHplhPAxGutdH-uxPn5VQVyUfOl7ZBDpc9SO2=
+KosbtMwqJhNk6vfx9TW7xdEgO3jICgvXT3ndBGRBp2a16wvhYDiAdc4lA9NBW9zBNlzCGbqq5gy=
+sXdyIXkQNHC34vOIxUnzfMJ3MUo5Wq84CDYd6bZAyGEk4hBoDkGnpXI_G3J6gTY3NUlOhzUZZfH=
+0CVH7mEcqe-tew~~">bidding support page</a>.</p><br> <p>See Project Informat=
+ion for details</p></p>=0A=
+</div></td></tr></table>=0A=
+<table class=3D"paragraph_block block-6" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad" style=
+=3D"padding-top:30px"><div style=3D"color:#101b24;direction:ltr;font-family=
+:Sans-serif;font-size:14px;font-weight:400;letter-spacing:0;line-height:150=
+%;text-align:left;mso-line-height-alt:21px">=0A=
+<p style=3D"margin:0;margin-bottom:0"><strong>Client Details</strong></p>=
+=0A=
+<p style=3D"margin:0;margin-bottom:0">Brad Kecskemeti =E2=80=93 <a style=3D=
+"text-decoration: none; color: #ff5100;" target=3D"_blank" href=3D"mailto:b=
+radk@pcionesource.com">bradk@pcionesource.com</a></p>=0A=
+<p style=3D"margin:0;margin-bottom:0">Office: (248) 542-2570, Mobile: (248)=
+ 721-0616</p>=0A=
+<p style=3D"margin:0;margin-bottom:0">PCI Industries, Inc - Oak Park, Michi=
+gan 48237 United States</p>=0A=
+<p style=3D"margin:0;margin-bottom:0">&nbsp;</p>=0A=
+<p style=3D"margin:0;margin-bottom:0"></p>=0A=
+<p style=3D"margin:0;margin-bottom:0">&nbsp;</p>=0A=
+<p style=3D"margin:0;margin-bottom:0"></p>=0A=
+</div></td></tr></table>=0A=
+</td></tr></tbody></table></td></tr></tbody></table>=0A=
+<table class=3D"row row-19" align=3D"center" width=3D"100%" border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-=
+lspace:0;mso-table-rspace:0"><tbody><tr><td><table class=3D"row-content sta=
+ck" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;border-rad=
+ius:0;color:#000;width:600px;margin:0 auto" width=3D"600"><tbody><tr><td cl=
+ass=3D"column column-1" width=3D"100%" style=3D"mso-table-lspace:0;mso-tabl=
+e-rspace:0;font-weight:400;text-align:left;vertical-align:top;border-top:0;=
+border-right:0;border-bottom:0;border-left:0"><table class=3D"html_block bl=
+ock-1" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0"><tr><td c=
+lass=3D"pad"><div style=3D"font-family:Sans-serif;text-align:center" align=
+=3D"center">=0A=
+</div></td></tr></table></td></tr></tbody></table></td></tr></tbody></table=
+>=0A=
+<table class=3D"row row-20" align=3D"center" width=3D"100%" border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-=
+lspace:0;mso-table-rspace:0"><tbody><tr><td><table class=3D"row-content sta=
+ck" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;border-rad=
+ius:0;color:#000;width:600px;margin:0 auto" width=3D"600"><tbody><tr><td cl=
+ass=3D"column column-1" width=3D"100%" style=3D"mso-table-lspace:0;mso-tabl=
+e-rspace:0;font-weight:400;text-align:left;vertical-align:top;border-top:0;=
+border-right:0;border-bottom:0;border-left:0"><table class=3D"html_block bl=
+ock-1" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0"><tr><td c=
+lass=3D"pad"><div style=3D"font-family:Sans-serif;text-align:center" align=
+=3D"center"></div></td></tr></table>=0A=
+<table class=3D"html_block block-3" width=3D"100%" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;=
+mso-table-rspace:0"><tr><td class=3D"pad"><div style=3D"font-family:Sans-se=
+rif;text-align:center" align=3D"center">=0A=
+</div></td></tr></table>=0A=
+</td></tr></tbody></table></td></tr></tbody></table>=0A=
+<table class=3D"row row-67" align=3D"center" width=3D"100%" border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-=
+lspace:0;mso-table-rspace:0"><tbody><tr><td><table class=3D"row-content sta=
+ck" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;background=
+-color:#fff;border-radius:0 0 6px 6px;color:#000;width:600px;margin:0 auto"=
+ width=3D"600"><tbody><tr><td class=3D"column column-1" width=3D"100%" styl=
+e=3D"mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;=
+padding-bottom:25px;padding-top:25px;vertical-align:top;border-top:0;border=
+-right:0;border-bottom:0;border-left:0"><table class=3D"paragraph_block blo=
+ck-1" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;word-break=
+:break-word"><tr><td class=3D"pad" style=3D"padding-left:25px;padding-right=
+:25px"><div style=3D"color:#101b24;direction:ltr;font-family:Sans-serif;fon=
+t-size:14px;font-weight:400;letter-spacing:0;line-height:150%;text-align:le=
+ft;mso-line-height-alt:21px"><p style=3D"margin:0">=0A=
+<a href=3D"https://click.procore.com/f/a/mldgOHmVROCmIQxQkdVdug~~/AAQRxRA~/=
+YU8u81n0hqHFxRAuSpGJA1HTifHJzhKze1sBK9LbT1YVuQoylNQHuNhYMAiIxBb8xi9YSfrxN82=
+cF4J0Vx4pSKXDQpignMKc6NumYeXqySVAHUzprS8oxhPSbOoQoWBp13hn5y3CB1XPFavOa3EU3o=
+DS4WaVJAHkIwMyi-gmcEEqn4shg12A4gu30uDriL63bFI5x_3zHgb4MyiLvLVpcWOWToR7_pEEy=
+RjvMWL0YwU~" target=3D"_blank" style=3D"text-decoration: none; color: #ff51=
+00;" rel=3D"noopener">View Bid Package &amp; Submit Bid in Procore</a></p><=
+/div></td></tr></table></td></tr></tbody></table></td></tr></tbody></table>=
+=0A=
+<table class=3D"row row-68" align=3D"center" width=3D"100%" border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-=
+lspace:0;mso-table-rspace:0"><tbody>=0A=
+<tr><td><table class=3D"row-content stack" align=3D"center" border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-=
+lspace:0;mso-table-rspace:0;border-radius:0;color:#000;width:600px;margin:0=
+ auto" width=3D"600"><tbody><tr><td class=3D"column column-1" width=3D"100%=
+" style=3D"mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align=
+:left;vertical-align:top;border-top:0;border-right:0;border-bottom:0;border=
+-left:0">=0A=
+<div class=3D"spacer_block block-1" style=3D"height:30px;line-height:30px;f=
+ont-size:1px">=E2=80=8A</div>=0A=
+<table class=3D"paragraph_block block-2" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad"><div s=
+tyle=3D"color:#232729;direction:ltr;font-family:Sans-serif;font-size:14px;f=
+ont-weight:400;letter-spacing:0;line-height:normal;text-align:left;mso-line=
+-height-alt:NaNpx"><p style=3D"margin:0"><code></code></p></div></td></tr><=
+/table>=0A=
+</td></tr></tbody></table></td></tr>=0A=
+</tbody></table>=0A=
+<table class=3D"row row-69" align=3D"center" width=3D"100%" border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-=
+lspace:0;mso-table-rspace:0;background-size:auto"><tbody><tr><td><table cla=
+ss=3D"row-content stack" align=3D"center" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table=
+-rspace:0;background-size:auto;background-color:#fff;border-radius:6px 6px =
+0 0;color:#000;width:600px;margin:0 auto" width=3D"600"><tbody><tr class=3D=
+"reverse">=0A=
+<td class=3D"column column-1 first" width=3D"66.66666666666667%" style=3D"m=
+so-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;border=
+-bottom:4px solid transparent;border-left:4px solid transparent;border-righ=
+t:4px solid transparent;border-top:4px solid transparent;padding-bottom:20p=
+x;padding-left:25px;padding-right:25px;padding-top:20px;vertical-align:midd=
+le"><div class=3D"border">=0A=
+<table class=3D"paragraph_block block-1" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad" style=
+=3D"padding-right:10px"><div style=3D"color:#101b24;direction:ltr;font-fami=
+ly:Sans-serif;font-size:16px;font-weight:400;letter-spacing:0;line-height:1=
+50%;text-align:left;mso-line-height-alt:24px"><p style=3D"margin:0"><strong=
+>Join the Procore Construction Network to receive more bids for relevant wo=
+rk</strong></p></div></td></tr></table>=0A=
+<table class=3D"paragraph_block block-2" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad" style=
+=3D"padding-bottom:10px;padding-right:10px;padding-top:35px"><div style=3D"=
+color:#101b24;direction:ltr;font-family:Sans-serif;font-size:12px;font-weig=
+ht:400;letter-spacing:0;line-height:180%;text-align:left;mso-line-height-al=
+t:21.6px"><p style=3D"margin:0">=0A=
+Get discovered and win more work by creating a business page on the Procore=
+ Construction Network. Claim your free account to easily build estimates, r=
+espond to bids, and manage your projects.</p></div></td></tr></table>=0A=
+</div></td>=0A=
+<td class=3D"column column-2 last" width=3D"33.333333333333336%" style=3D"m=
+so-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;border=
+-bottom:4px solid transparent;border-left:4px solid transparent;border-righ=
+t:4px solid transparent;border-top:4px solid transparent;padding-bottom:5px=
+;padding-right:25px;padding-top:5px;vertical-align:middle"><div class=3D"bo=
+rder"><table class=3D"image_block block-1" width=3D"100%" border=3D"0" cell=
+padding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-ls=
+pace:0;mso-table-rspace:0"><tr><td class=3D"pad" style=3D"width:100%"><div =
+class=3D"alignment" align=3D"center" style=3D"line-height:10px"><div style=
+=3D"max-width:140px"><img src=3D"https://braze-images.com/appboy/communicat=
+ion/assets/image_assets/images/6442cdb64a35d2004f6bcef2/original.png?168209=
+9638" style=3D"display:block;height:auto;border:0;width:100%" width=3D"140"=
+ alt=3D"" title=3D"" height=3D"auto"></div></div></td></tr></table></div></=
+td>=0A=
+</tr></tbody></table></td></tr></tbody></table>=0A=
+<table class=3D"row row-70" align=3D"center" width=3D"100%" border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-=
+lspace:0;mso-table-rspace:0"><tbody><tr><td><table class=3D"row-content sta=
+ck" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;background=
+-color:#fff;border-radius:0 0 6px 6px;color:#000;width:600px;margin:0 auto"=
+ width=3D"600"><tbody><tr>=0A=
+<td class=3D"column column-1" width=3D"33.333333333333336%" style=3D"mso-ta=
+ble-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;padding-bot=
+tom:24px;padding-left:24px;vertical-align:top;border-top:0;border-right:0;b=
+order-bottom:0;border-left:0"><table class=3D"button_block block-1" width=
+=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presenta=
+tion" style=3D"mso-table-lspace:0;mso-table-rspace:0"><tr><td class=3D"pad"=
+ style=3D"padding-right:16px;text-align:left"><div class=3D"alignment" alig=
+n=3D"left">=0A=
+<!--[if mso]>=0A=
+<v:roundrect xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:w=3D"urn:schem=
+as-microsoft-com:office:word" href=3D"https://procore.com/network/signup?li=
+d=3Dscz3q2wcoku4" style=3D"height:44px;width:160px;v-text-anchor:middle;" a=
+rcsize=3D"10%" strokeweight=3D"0.75pt" strokecolor=3D"#D6DADC" fillcolor=3D=
+"#d6dadc">=0A=
+<w:anchorlock/>=0A=
+<v:textbox inset=3D"0px,0px,0px,0px">=0A=
+<center dir=3D"false" style=3D"color:#000000;font-family:sans-serif;font-si=
+ze:16px">=0A=
+<![endif]-->=0A=
+<a class=3D"button" href=3D"https://click.procore.com/f/a/GDBxEg4mXQUWp7F-9=
+m-L_Q~~/AAQRxRA~/60ar-cKZ3gBUpvNk9fWYP94k7JOl8PyeQ47WCrM4GMvtym8kuRTu6gyq4K=
+ax_bRrKlNQEvPZLEUsc2wE4G6c4Uxvv7uHWubqa5fZN4SJCvXpL66OivZaQ6xl1Luub0sRquvdA=
+Mn8rZgGEUNGhfnO6Q~~" target=3D"_blank" style=3D"background-color:#d6dadc;bo=
+rder-bottom:1px solid #D6DADC;border-left:1px solid #D6DADC;border-radius:4=
+px;border-right:1px solid #D6DADC;border-top:1px solid #D6DADC;color:#00000=
+0;display:block;font-family:Sans-serif;font-size:16px;font-weight:400;mso-b=
+order-alt:none;padding-bottom:5px;padding-top:5px;text-align:center;text-de=
+coration:none;width:100%;word-break:keep-all;"><span style=3D"word-break: b=
+reak-word; padding-left: 10px; padding-right: 10px; font-size: 16px; displa=
+y: inline-block; letter-spacing: normal;"><span style=3D"word-break: break-=
+word; line-height: 32px;"><strong>Join Network</strong></span></span></a>=
+=0A=
+<!--[if mso]></center></v:textbox></v:roundrect><![endif]-->=0A=
+</div></td></tr></table></td>=0A=
+<td class=3D"column column-2" width=3D"66.66666666666667%" style=3D"mso-tab=
+le-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;vertical-ali=
+gn:top;border-top:0;border-right:0;border-bottom:0;border-left:0"><table cl=
+ass=3D"button_block block-1" width=3D"100%" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-tab=
+le-rspace:0"><tr><td class=3D"pad" style=3D"text-align:left"><div class=3D"=
+alignment" align=3D"left">=0A=
+<!--[if mso]>=0A=
+<v:roundrect xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:w=3D"urn:schem=
+as-microsoft-com:office:word" href=3D"https://support.procore.com/faq/what-=
+is-the-procore-construction-network?lid=3Db5hnm23jvnim#Answer" style=3D"hei=
+ght:44px;width:160px;v-text-anchor:middle;" arcsize=3D"10%" strokeweight=3D=
+"0.75pt" strokecolor=3D"#D6DADC" fillcolor=3D"#ffffff">=0A=
+<w:anchorlock/>=0A=
+<v:textbox inset=3D"0px,0px,0px,0px">=0A=
+<center dir=3D"false" style=3D"color:#000000;font-family:sans-serif;font-si=
+ze:16px">=0A=
+<![endif]-->=0A=
+<a class=3D"button" href=3D"https://click.procore.com/f/a/JlgSC3xizELQl--8b=
+WsNFg~~/AAQRxRA~/-MXYjpLur6-i6Atn345Km8joeqcEqiLv-k_DDWAiGjOY3WHtsBLYBBIEoM=
+_xrQtp4QDvROJZvZWYe7DsqyfAnR0wQCOm9_sV6aGNXOFZh14aW3I2XMYeYPr_IEgp-G8af6r1h=
+1vN3piKyH0KAgcpxT5H-ZDV0mTOnNsCmesItD4g9Si7Xk2w0vX6nbYic9g_lm6I7RsiisvPatkF=
+jHiDtg~~" target=3D"_blank" style=3D"background-color:#ffffff;border-bottom=
+:1px solid #D6DADC;border-left:1px solid #D6DADC;border-radius:4px;border-r=
+ight:1px solid #D6DADC;border-top:1px solid #D6DADC;color:#000000;display:b=
+lock;font-family:Sans-serif;font-size:16px;font-weight:400;mso-border-alt:n=
+one;padding-bottom:5px;padding-top:5px;text-align:center;text-decoration:no=
+ne;width:40%;word-break:keep-all;"><span style=3D"word-break: break-word; p=
+adding-left: 10px; padding-right: 10px; font-size: 16px; display: inline-bl=
+ock; letter-spacing: normal;"><span style=3D"word-break: break-word; line-h=
+eight: 32px;"><strong>Learn More</strong></span></span></a>=0A=
+<!--[if mso]></center></v:textbox></v:roundrect><![endif]-->=0A=
+</div></td></tr></table></td>=0A=
+</tr></tbody></table></td></tr></tbody></table>=0A=
+<table class=3D"row row-71" align=3D"center" width=3D"100%" border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-=
+lspace:0;mso-table-rspace:0"><tbody><tr><td><table class=3D"row-content sta=
+ck" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;border-rad=
+ius:0;color:#000;width:600px;margin:0 auto" width=3D"600"><tbody><tr><td cl=
+ass=3D"column column-1" width=3D"100%" style=3D"mso-table-lspace:0;mso-tabl=
+e-rspace:0;font-weight:400;text-align:left;padding-bottom:5px;padding-top:5=
+px;vertical-align:top;border-top:0;border-right:0;border-bottom:0;border-le=
+ft:0"><table class=3D"paragraph_block block-1" width=3D"100%" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-tabl=
+e-lspace:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad">=
+<div style=3D"color:#232729;direction:ltr;font-family:Sans-serif;font-size:=
+14px;font-weight:400;letter-spacing:0;line-height:normal;text-align:left;ms=
+o-line-height-alt:NaNpx"><p style=3D"margin:0"></p></div></td></tr></table>=
+</td></tr></tbody></table></td></tr></tbody></table>=0A=
+<table class=3D"row row-72" align=3D"center" width=3D"100%" border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-=
+lspace:0;mso-table-rspace:0"><tbody><tr><td><table class=3D"row-content sta=
+ck" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;border-rad=
+ius:0;color:#000;width:600px;margin:0 auto" width=3D"600">=0A=
+<tbody><tr><td class=3D"column column-1" width=3D"100%" style=3D"mso-table-=
+lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;padding-bottom:=
+20px;padding-top:20px;vertical-align:top;border-top:0;border-right:0;border=
+-bottom:0;border-left:0"><table class=3D"html_block block-1" width=3D"100%"=
+ border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" sty=
+le=3D"mso-table-lspace:0;mso-table-rspace:0"><tr><td class=3D"pad"><div sty=
+le=3D"font-family:Sans-serif;text-align:center" align=3D"center">=0A=
+<table class=3D"nl-container" width=3D"100%" border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-ta=
+ble-rspace:0;background-color:#f3f4f5"><tbody><tr><td><table class=3D"row r=
+ow-1" align=3D"center" width=3D"100%" border=3D"0" cellpadding=3D"0" cellsp=
+acing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rsp=
+ace:0"><tbody><tr><td><table class=3D"row-content stack" align=3D"center" b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=
+=3D"mso-table-lspace:0;mso-table-rspace:0;border-radius:0;color:#000;width:=
+600px;margin:0 auto" width=3D"600"><tbody><tr><td class=3D"column column-1"=
+ width=3D"100%" style=3D"mso-table-lspace:0;mso-table-rspace:0;font-weight:=
+400;text-align:left;padding-bottom:20px;padding-top:20px;vertical-align:top=
+;border-top:0;border-right:0;border-bottom:0;border-left:0">=0A=
+<table class=3D"image_block block-1" width=3D"100%" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0=
+;mso-table-rspace:0"><tr><td class=3D"pad" style=3D"width:100%"><div class=
+=3D"alignment" align=3D"center" style=3D"line-height:10px"><div style=3D"ma=
+x-width:113px"><img src=3D"https://braze-images.com/appboy/communication/as=
+sets/image_assets/images/6442cf2fa844fe004cb9a87f/original.png?1682100015" =
+style=3D"display:block;height:auto;border:0;width:100%" width=3D"113" heigh=
+t=3D"auto"></div></div></td></tr></table>=0A=
+<table class=3D"paragraph_block block-2" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad" style=
+=3D"padding-left:25px;padding-right:25px;padding-top:10px"><div style=3D"co=
+lor:#4d4d4d;direction:ltr;font-family:Sans-serif;font-size:14px;font-weight=
+:400;letter-spacing:0;line-height:180%;text-align:center;mso-line-height-al=
+t:25.2px"><p style=3D"margin:0">=0A=
+<a href=3D"mailto:support@procore.com" target=3D"_blank" title=3D"support@p=
+rocore.com" rel=3D"noopener" style=3D"text-decoration: none; color: #ff5100=
+;">support@procore.com</a>&nbsp;|&nbsp;<a href=3D"https://click.procore.com=
+/f/a/VbsFF8NiAnAkNNWDnF09Kw~~/AAQRxRA~/Y1mspfcctaTThSMPhNJFK9gE65m462dbcu98=
+4VEIGm8AoXc671BoCSRYouDZMUgN6e8_zl2EVdKHoYbjGngaKDP2mo62XJwSpM9EEA13msDetGn=
+5Ahef1COf4cwgepH5PrPl-O9Txf2HCQb7fv4G3Q~~" target=3D"_blank" style=3D"text-=
+decoration: none; color: #ff5100;" rel=3D"noopener">http://support.procore.=
+com</a></p></div></td></tr></table>=0A=
+<table class=3D"paragraph_block block-3" width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad" style=
+=3D"padding-left:25px;padding-right:25px"><div style=3D"color:#4d4d4d;direc=
+tion:ltr;font-family:Sans-serif;font-size:12px;font-weight:400;letter-spaci=
+ng:0;line-height:180%;text-align:center;mso-line-height-alt:21.6px">=0A=
+<p style=3D"margin:0;margin-bottom:0"></p>=0A=
+<p style=3D"margin:0;margin-bottom:0">This email address is unmonitored - D=
+o not reply.</p>=0A=
+<p style=3D"margin:0;margin-bottom:0">To unsubscribe, please check your set=
+tings or talk to your company administrator.</p>=0A=
+<p style=3D"margin:0;margin-bottom:0"></p>=0A=
+<p style=3D"margin:0;margin-bottom:0"></p>=0A=
+<p style=3D"margin:0;margin-bottom:0"></p>=0A=
+<p style=3D"margin:0">=0A=
+</p>=0A=
+</div></td></tr></table>=0A=
+</td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></tab=
+le>=0A=
+<!-- End -->=0A=
+</div></td></tr></table></td></tr></tbody>=0A=
+</table></td></tr></tbody></table>=0A=
+</td></tr></tbody></table>=0A=
+<!-- End -->=0A=
+
+<img border=3D"0" width=3D"1" height=3D"1" alt=3D"" src=3D"https://click.pr=
+ocore.com/q/2V64iCtNEdKPlu5AUA87-g~~/AAQRxRA~/_ej1ptJG2SW2r1HX-2ctMNWI44U4Z=
+e3SQupE8GXe7wHgZjE9sAoC0GEGDsFHPpPv9vBvQxy_kZ7Q4fM_ZI9A7A~~">
+</body>=0A=
+</html>=
+
+--_----BJ9+CRD9XstT7ih0e0cWkA===_F5/FD-16693-63804D86--
