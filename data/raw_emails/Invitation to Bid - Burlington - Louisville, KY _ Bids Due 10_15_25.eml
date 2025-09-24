@@ -1,0 +1,575 @@
+Received: from CH3PR20MB6424.namprd20.prod.outlook.com (2603:10b6:610:15e::11)
+ by IA1PR20MB5720.namprd20.prod.outlook.com with HTTPS; Mon, 22 Sep 2025
+ 17:53:43 +0000
+Received: from MW4PR04CA0265.namprd04.prod.outlook.com (2603:10b6:303:88::30)
+ by CH3PR20MB6424.namprd20.prod.outlook.com (2603:10b6:610:15e::11) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.9137.20; Mon, 22 Sep
+ 2025 17:53:22 +0000
+Received: from SJ1PEPF00001CDC.namprd05.prod.outlook.com
+ (2603:10b6:303:88:cafe::58) by MW4PR04CA0265.outlook.office365.com
+ (2603:10b6:303:88::30) with Microsoft SMTP Server (version=TLS1_3,
+ cipher=TLS_AES_256_GCM_SHA384) id 15.20.9137.19 via Frontend Transport; Mon,
+ 22 Sep 2025 17:53:22 +0000
+Authentication-Results: spf=fail (sender IP is 148.163.129.49)
+ smtp.mailfrom=em1332.isqftmail.com; dkim=pass (signature was verified)
+ header.d=isqftmail.com;dmarc=pass action=none
+ header.from=isqftmail.com;compauth=pass reason=100
+Received-SPF: Fail (protection.outlook.com: domain of em1332.isqftmail.com
+ does not designate 148.163.129.49 as permitted sender)
+ receiver=protection.outlook.com; client-ip=148.163.129.49;
+ helo=dispatch1-us1.ppe-hosted.com;
+Received: from dispatch1-us1.ppe-hosted.com (148.163.129.49) by
+ SJ1PEPF00001CDC.mail.protection.outlook.com (10.167.242.4) with Microsoft
+ SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384) id 15.20.9137.12
+ via Frontend Transport; Mon, 22 Sep 2025 17:53:22 +0000
+Authentication-Results-Original: ppe-hosted.com; spf=pass
+ smtp.mailfrom=em1332.isqftmail.com; dkim=pass header.d=isqftmail.com
+ header.s=S3; dmarc=pass header.from=isqftmail.com header.policy=none; 
+X-Virus-Scanned: Proofpoint Essentials engine
+Received: from o62.ptr8195.isqftmail.com (o62.ptr8195.isqftmail.com [149.72.224.86])
+	(using TLSv1.3 with cipher TLS_AES_128_GCM_SHA256 (128/128 bits)
+	 key-exchange X25519 server-signature RSA-PSS (4096 bits) server-digest SHA256)
+	(No client certificate requested)
+	by mx1-us1.ppe-hosted.com (PPE Hosted ESMTP Server) with ESMTPS id 34ABC10009B
+	for <estimating@michmech.com>; Mon, 22 Sep 2025 17:53:19 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=isqftmail.com;
+	h=content-transfer-encoding:content-type:date:from:mime-version:subject:
+	reply-to:to:cc:content-type:date:from:subject:to;
+	s=S3; bh=hyriFJ87jWarxB4jodu8YZaSC8hJZqtettibZe2VDsQ=;
+	b=mtI+zQcaIzYVn7XXlcbJlflaapQKIbaxOjna05W1Sk6fW/g9rzVpnCNrKcs5qm7nxlD8
+	4bT8/T7yY3K9/g6XaYPK6cvMEhTYL4w+tAIjvKf5kGNGgEh8766TnrnfQ2geNqBp2QWxyk
+	rmPdFnPTbs7xtyYaS/4YTIvDukBbFGINZFxBbYT9U3lJz4vAJBnpV9H+fdEIxavvqBdkEu
+	B9mPL2hmVFAYSZi0feYcXPW9LUG51tiIFEPecAvbX3rIysWQO4hcDVCwpnxev3l1Hrr8EF
+	sksgLHFgiKRbJ0CkPtkr21i3lCX9aU/SieQmDK5GoLQktZrxIRw6dzzpeF6uLHWQ==
+Received: by recvd-59b947fc98-8s7rz with SMTP id recvd-59b947fc98-8s7rz-1-68D18D0E-47
+	2025-09-22 17:53:18.475352762 +0000 UTC m=+9508768.372528310
+Received: from MTUzNzM0MjU (unknown)
+	by geopod-ismtpd-21 (SG) with HTTP
+	id g7fQSh1VSP6ehwi8Ws61ug
+	Mon, 22 Sep 2025 17:53:18.440 +0000 (UTC)
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=us-ascii
+Date: Mon, 22 Sep 2025 17:53:18 +0000 (UTC)
+From: Summit General Contractor <Transmittals@isqftmail.com>
+Message-ID: <g7fQSh1VSP6ehwi8Ws61ug@geopod-ismtpd-21>
+Subject: Invitation to Bid - Burlington - Louisville, KY : Bids Due 10/15/25
+Reply-To: Summit General Contractor
+	<a14275f3-6984-47ff-92e8-68f82d072f1c@isqftmail.com>
+X-SG-EID: =?us-ascii?Q?u001=2EjFN7UVVYAzGfMwqJA3XgInfDowZ+nYiX1NQiAY5MrsR5yvbMJ0+VppHih?=
+ =?us-ascii?Q?7ARq+7=2Fpq4A2KsRBkMMzIIwbMfHSYeeLUBT2bAN?=
+ =?us-ascii?Q?uUtZm=2FURP=2FAy+jmP6xVa6eWc77gpInxpRHHKFRM?=
+ =?us-ascii?Q?S1JFK99WJpqgLaYFMKMg7Qajvq5ay=2Fjw=2FznJznq?=
+ =?us-ascii?Q?V3Qua6r3s+8cMpJbQTFBQrlkclbyKER9R0DbblE?=
+ =?us-ascii?Q?ZsTSQe25YK2lYjlgDSbPD1t5vb0oWh1V10X8Z57?=
+ =?us-ascii?Q?2+rhcIdS7a526JnUDzrieP+dpA=3D=3D?=
+X-SG-ID: =?us-ascii?Q?u001=2ESdBcvi+Evd=2FbQef8eZF3BulgwQ4TLE8lEiA3ElwClt1nZ0W7zhZNIMeP1?=
+ =?us-ascii?Q?Wd3XBM3DZUtCITB73BW9Tzrj=2FUKfw=3D=3D?=
+To: Tomblin Jamey <estimating@michmech.com>
+X-Entity-ID: u001.PjN39y9CU6gYObBpmT8bBA==
+X-MDID: 1758563599-9CK9kGuaUOwl
+X-PPE-STACK: {"stack":"us1"}
+X-MDID-I: us1;ut7;1758563599;9CK9kGuaUOwl;<bounces+15373425-33ac-estimating=michmech.com@em1332.isqftmail.com>;7d68534bf0e04d50d56f78e93bdbe5a2
+X-PPE-TRUSTED: V=1;DIR=IN;
+Return-Path: bounces+15373425-33ac-estimating=michmech.com@em1332.isqftmail.com
+X-MS-Exchange-Organization-ExpirationStartTime: 22 Sep 2025 17:53:22.4431
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: d8cae7e0-6e5d-41a4-3458-08ddfa00ec18
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: bc38725a-45a2-4f51-a8da-7f374b1b1cb7:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: SJ1PEPF00001CDC:EE_|CH3PR20MB6424:EE_|IA1PR20MB5720:EE_
+X-MS-Exchange-Organization-AuthSource: SJ1PEPF00001CDC.namprd05.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Office365-Filtering-Correlation-Id: d8cae7e0-6e5d-41a4-3458-08ddfa00ec18
+X-MS-Exchange-AtpMessageProperties: SA|SL
+X-MS-Exchange-Organization-SCL: -1
+X-Microsoft-Antispam: BCL:2;ARA:13230040|13102899012|82310400026|69100299015|4022899009|12012899012|1032899013|29132699027|2092899012|3072899012|5062899012|3092899012|31052699007|39142699007|2066899003|13003099007|8096899003;
+X-Forefront-Antispam-Report: CIP:148.163.129.49;CTRY:US;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SFE;H:dispatch1-us1.ppe-hosted.com;PTR:dispatch1-us1.ppe-hosted.com;CAT:NONE;SFS:(13230040)(13102899012)(82310400026)(69100299015)(4022899009)(12012899012)(1032899013)(29132699027)(2092899012)(3072899012)(5062899012)(3092899012)(31052699007)(39142699007)(2066899003)(13003099007)(8096899003);DIR:INB;
+X-Auto-Response-Suppress: DR, OOF, AutoReply
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 22 Sep 2025 17:53:22.0728
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: d8cae7e0-6e5d-41a4-3458-08ddfa00ec18
+X-MS-Exchange-CrossTenant-Id: bc38725a-45a2-4f51-a8da-7f374b1b1cb7
+X-MS-Exchange-CrossTenant-AuthSource: SJ1PEPF00001CDC.namprd05.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CH3PR20MB6424
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:21.6375429
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.9137.014
+X-Microsoft-Antispam-Mailbox-Delivery:
+	wl:1;pcwl:1;ucf:0;jmr:0;auth:0;dest:I;ENG:(910005)(944506478)(944626604)(920097)(811242)(255002)(410001)(930097)(140003);
+X-Microsoft-Antispam-Message-Info:
+	=?us-ascii?Q?/AqU6udXdchi7gixeqc4krp21Jv8thtlREnqJj1MUEBJpI9/zbhjawj9RgeR?=
+ =?us-ascii?Q?L5zFbxGRvtziJwwHKewrf3DCohB2H+b70tjxzjNrB0IzP5GRsMcnR7ggt09+?=
+ =?us-ascii?Q?eZMO0Tf5iPRBe8AYHcQXfYnlybEDB+h9NQnsgDPGO0ej/fzbJfjjrkCT1KSV?=
+ =?us-ascii?Q?yCifZ0oJGxmAKtID87QLgQJr7MNZtGH/IgDkDw5YscKBnjTvfu9tG3ad+7w4?=
+ =?us-ascii?Q?q3SrMLH7mKJ2hneFsBJGEDIEqUmEldT0gWhpt7518UthyxuS2WgYnKPP+ahF?=
+ =?us-ascii?Q?ezHvR+BFCUZBbl+diAcAjD+q6D6zah5irt9XwOTs1gnOMyc6aqE1p5ZOGHXx?=
+ =?us-ascii?Q?2/0+QzEttlPJZQRlqu9o5cPfqH3asXSvmwcyD3PwziJdCLj/LvElxeRKdRtT?=
+ =?us-ascii?Q?bqHhc14+ogt3H8odBYLRgxzPIRgRvRotGlPtUTiDQCavyURDIWh+0rELfgws?=
+ =?us-ascii?Q?WSRTv8Kie9FJZ+cBNGd4ojFcpPvCOi/SmhvA767taTcRQl+L0mOQ/FNNpXgU?=
+ =?us-ascii?Q?PVrZKSRVp8EOT0UL02QwvkxB2u8htb8IxRuLnwGE4wLt4XFPur50OGuNq/3F?=
+ =?us-ascii?Q?oF5SfaxyDS6wkkAqj0wXUy8NaLMnvxol7WxZZzcsU0OCo2U+Zi+FG/EpyM/B?=
+ =?us-ascii?Q?2i7Dfvbdy1kWxN5sSKa5y+2iKVl9kkiWLe2kSfXudIKZsw9j0eoWPnFFF+RW?=
+ =?us-ascii?Q?XZoytmjs4eGjrZuQE/ALuownVGZArkm4HGKBlITMFkYgQTs6Ypi56wkCACs2?=
+ =?us-ascii?Q?JNCEkPr+QI0ovaNKmZfRzKsnOr9UeBXr3rUlwUTR+MmEk0CL7DtMIu8TE2xZ?=
+ =?us-ascii?Q?jTnGk3j7yEVW00bkbjRNvICT6dU7rHcMPcMQzyaeacKaJQAO/TQv22xjoDuQ?=
+ =?us-ascii?Q?S+xuk93kJ6LHXvJh/txP+KwG5Ji428nZgnoRL3sivAx3DptPboLBTbLHeDL6?=
+ =?us-ascii?Q?P8sD/SHK3N4tkK/u7W3tIgveh3WznFvqJz+5J60RGZhfQFIdP6umHfTpJRxv?=
+ =?us-ascii?Q?zl8umjfC39eaYyoGjhqSqFgPXBxiIv27gnSH3Gggk4AzzfTNYaHTSQ9aRaq/?=
+ =?us-ascii?Q?5N8LQenJ8b1Ccyq52P81FrSaufYa6YSmm+IRU2drbHd7dUqLcnG+oa0CN5gS?=
+ =?us-ascii?Q?TxgJG65LjQjzRi99GIb/IbXJM4okQr0myxjjia1qaLQfYWy5YZ+CFmXjuSQ7?=
+ =?us-ascii?Q?LEaizd8C6rQSzbZnJbTJwbrngUWpPwgb4R8E6v5Mgl0b45/2EQlzxNXUgG+P?=
+ =?us-ascii?Q?oJiImkB6ABKWylywEymPzatuqcGCFJi0innMyhroI+giUQBkiLfoK4cg9SD3?=
+ =?us-ascii?Q?5Ta0saUZwQOq1E6IllJNM6mgMrjzgvXiFR2g4y4LCuOwDs5z1bJg/13XN+yi?=
+ =?us-ascii?Q?aZIQqVfCC9LD2clL0UlqnXkc6NJO2w5MxBTXsT1njD9CU8GsY+6Fmw2O+WMV?=
+ =?us-ascii?Q?w9IeqTruq1Xbj0ZKMb/aqL8SNktZWbs38QDINbT+Ja07ZGuwlZods8SP7Bhq?=
+ =?us-ascii?Q?7yJ/EY1WrNUoE1LKwIIVRfqpgDGwyXSeQIWXEeiTLSBNgqIggtlPLttqPbwx?=
+ =?us-ascii?Q?iS4egFR9GeloFRl678fsS2NKHX9dFu//28gcJxU31iEnKzHYNP9W5UxH40u0?=
+ =?us-ascii?Q?xB2fUXi6lWgSQp4BAP8G74ee7TsX8HE7gz5pny9Uujxi5mkZXnHcRltxvVrC?=
+ =?us-ascii?Q?eovkLSTo0p0Ctki98S8p27LMxiFO7OEZt0Fn18UgO7z1cpQ7vOSCZ7Z5iW2s?=
+ =?us-ascii?Q?Y+btCZykCGPut8Zwqo75/l1QV/JaWxWAURvaX0Fmzt0iK16+aipC0YNqx8yu?=
+ =?us-ascii?Q?xiBjckb3uuNLuEtAFmnirfpQZ2IQ9Kdtv2JSwWR++jwJ+tQtyYXBI6GGDTOs?=
+ =?us-ascii?Q?4HHPHS/t4BmLL37ule9/TnR6QNJBhGF4YJWmpV+TOMzd7hzaI1ezpPUC2U3L?=
+ =?us-ascii?Q?YsfWm5+YGAwd+ZJf67ODE5YnxeFrQWKYomg2kIBlWq/5eabAMciVyYuDE1Q7?=
+ =?us-ascii?Q?9KQNlFeyC02Fsz47G58PIwMuqMBaFDyUoxj4ynSw4HDSoIcwZc5OHED8coUU?=
+ =?us-ascii?Q?OL2S342GRkQdGXGjJwVmQ+e2izSuwGsYbKTxvcUYzbFV66ebyaadqs7hxm87?=
+ =?us-ascii?Q?tq5+iZI7h+NpZDkPcRhUYCBaXKkByHLsCo52ljOxWQtuv6gTyaoPCiwbAbrD?=
+ =?us-ascii?Q?pT+ECdj9tGqNnmzAwk8AlLN46mXV8Ki3PxBLdl5MgQ8G7rhHA9uyFg8IEmU?=
+ =?us-ascii?Q?=3D?=
+MIME-Version: 1.0
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+></head>
+<body><table width=3D"650" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+>                  <tr><td colspan=3D"3" width=3D"650" valign=3D"top" align=
+=3D"left">&nbsp;</td></tr>                  <tr>                           =
+       <td width=3D"20" valign=3D"top" align=3D"left">&nbsp;</td>          =
+                        <td width=3D"610" valign=3D"top" align=3D"left">   =
+                                               <table width=3D"610" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0">                                =
+                                  <tr>                                     =
+                                             <td width=3D"330" valign=3D"to=
+p" align=3D"left">                                                         =
+                                         <h1 style=3D"font-family:Arial,Tah=
+oma,Verdana,sans-serif;font-size:32px;color:#000000;margin-bottom:10px;padd=
+ing:0;font-weight:bold;text-transform:uppercase;">Invitation to Bid</h1>   =
+                                                                        =20
+                                     <table width=3D"330" border=3D"0" cell=
+padding=3D"0" cellspacing=3D"0">                                           =
+                                                                           =
+            <tr>                                                           =
+                                                                           =
+            <td width=3D"80" valign=3D"top" align=3D"left"><p style=3D"font=
+-family:Arial,Tahoma,Verdana,sans-serif;font-size:12px;color:#656565;margin=
+:0;padding:0;font-weight:normal;">From:</p></td>                           =
+                                                                           =
+                                            <td width=3D"20" valign=3D"top"=
+ align=3D"left">&nbsp;</td>                                                =
+                                                                           =
+                       <td width=3D"230" valign=3D"top" align=3D"left"><p s=
+tyle=3D"font-family:Arial,Tahoma,Verdana,sans-serif;font-size:12px;color:#0=
+00000;margin:0;padding:0;font-weight:normal;">Summit General Contractor</p>=
+</td>                                                                      =
+                                                            </tr>          =
+                                                                           =
+                                             <tr>                          =
+                                                                           =
+                                             <td width=3D"80" valign=3D"top=
+" align=3D"left"><p style=3D"font-family:Arial,Tahoma,Verdana,sans-serif;fo=
+nt-size:12px;color:#656565;margin:0;padding:0;font-weight:normal;">Sent:</p=
+></td>                                                                     =
+                                                                           =
+  <td width=3D"20" valign=3D"top" align=3D"left">&nbsp;</td>               =
+                                    =20
+                                                                           =
+                  <td width=3D"230" valign=3D"top" align=3D"left"><p style=
+=3D"font-family:Arial,Tahoma,Verdana,sans-serif;font-size:12px;color:#00000=
+0;margin:0;padding:0;font-weight:normal;">Monday, September 22, 2025 1:50 P=
+M ET</p></td>                                                              =
+                                                                    </tr>  =
+                                                                           =
+                                                     <tr>                  =
+                                                                           =
+                                                     <td width=3D"80" valig=
+n=3D"top" align=3D"left"><p style=3D"font-family:Arial,Tahoma,Verdana,sans-=
+serif;font-size:12px;color:#656565;margin:0;padding:0;font-weight:normal;">=
+Email:</p></td>                                                            =
+                                      =20
+                                              <td width=3D"20" valign=3D"to=
+p" align=3D"left">&nbsp;</td>                                              =
+                                                                           =
+                         <td width=3D"230" valign=3D"top" align=3D"left"><p=
+ style=3D"font-family:Arial,Tahoma,Verdana,sans-serif;font-size:12px;color:=
+#000000;margin:0;padding:0;font-weight:normal;">estimating@summitgc.net</p>=
+</td>                                                                      =
+                                                            </tr>          =
+                                                                           =
+                                             <tr>                          =
+                                                                           =
+                                             <td width=3D"80" valign=3D"top=
+" align=3D"left"><p style=3D"font-family:Arial,Tahoma,Verdana,sans-serif;fo=
+nt-size:12px;color:#656565;margin:0;padding:0;font-weight:normal;">Phone:</=
+p></td>                                                                    =
+                                                                           =
+   <td width=3D"20" valign=3D"top" align=3D"left">&nbsp;</td>              =
+                                                                           =
+                                                         <td width=3D"230" =
+valign=3D"top" align=3D"left"><p style=3D"font-family:Arial,Tahoma,Verdana,=
+sans-serif;font-size:12px;color:#000000;margin:0;padding:0;font-weight:norm=
+al;">(865) 691-6818</p></td>                                               =
+                                                                           =
+        </tr>                                  <tr>                        =
+                                                                           =
+                                               <td width=3D"80" valign=3D"t=
+op" align=3D"left"><p style=3D"font-family:Arial,Tahoma,Verdana,sans-serif;=
+font-size:12px;color:#656565;margin:0;padding:0;font-weight:normal;">Fax:</=
+p></td>                                                                    =
+                                                                           =
+   <td width=3D"20" valign=3D"top" align=3D"left">&nbsp;</td>              =
+                                                                           =
+                                                         <td width=3D"230" =
+valign=3D"top" align=3D"left"><p style=3D"font-family:Arial,Tahoma,Verdana,=
+sans-serif;font-size:12px;color:#000000;margin:0;padding:0;font-weight:norm=
+al;"></p></td>                                                             =
+                                                                     </tr> =
+                                                                           =
+                                      </table>                             =
+                   =20
+                                </td>                                      =
+                                            <td width=3D"30" valign=3D"top"=
+ align=3D"left">&nbsp;</td>                                                =
+                                  <td width=3D"250" valign=3D"top" align=3D=
+"right"><!-- GC LOGO --><img src=3D"https://app.isqft.com/services/document=
+/getpublicdocument/624510" alt=3D"Summit General Contractor" width=3D"150">=
+</td>                                                                  </tr=
+>                                                  </table>                =
+                  </td>                                  <td width=3D"20" v=
+align=3D"top" align=3D"left">&nbsp;</td>                  </tr>            =
+      <tr><td colspan=3D"3" width=3D"650" valign=3D"top" align=3D"left">&nb=
+sp;</td></tr>  </table>  <table width=3D"650" border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0"><tr><td width=3D"20" valign=3D"top" align=3D"left">&nbs=
+p;</td><td width=3D"610" valign=3D"top" align=3D"left"><table width=3D"610"=
+ border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"background-color=
+:#dfdfdf;border:1px solid #959595;"><tr><td width=3D"610" valign=3D"top" al=
+ign=3D"center" style=3D"padding-top:10px;padding-bottom:8px;"><p style=3D"f=
+ont-family:Arial,Tahoma,Verdana,sans-serif;font-size:12px;color:#000000;mar=
+gin-bottom:6px;padding:0;font-weight:normal;">Let us know your bid intentio=
+n here:</p><a href=3D"https://app.isqft.com/services/go/ResponseLink/KVWR8J=
+Z1/6667379/1"><img src=3D"https://app.isqft.com/services/document/getpublic=
+document/106" width=3D"82" height=3D"22" alt=3D"Will Bid" border=3D"0"></a>=
+&nbsp;&nbsp;&nbsp;&nbsp;<a href=3D"https://app.isqft.com/services/go/Respon=
+seLink/KVWR8JZ1/6667379/2"><img src=3D"https://app.isqft.com/services/docum=
+ent/getpublicdocument/103" width=3D"118" height=3D"22" alt=3D"Under Review"=
+ border=3D"0"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href=3D"https://app.isqft.com/=
+services/go/ResponseLink/KVWR8JZ1/6667379/3"><img src=3D"https://app.isqft.=
+com/services/document/getpublicdocument/104" width=3D"95" height=3D"22" alt=
+=3D"Won't Bid" border=3D"0"></a></td></tr></table></td><td width=3D"20" val=
+ign=3D"top" align=3D"left">&nbsp;</td></tr><tr><td colspan=3D"3" width=3D"6=
+50" valign=3D"top" align=3D"left">&nbsp;</td></tr></table>
+
+<!-- PROJECT INFO -->
+<table width=3D"650" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+	<tr>
+		<td width=3D"20" valign=3D"top" align=3D"left">&nbsp;</td>
+		<td width=3D"610" valign=3D"top" align=3D"left">
+			<hr style=3D"border:1px solid #dfdfdf;margin-bottom:26px;">
+				<table width=3D"610" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+					<tr>
+						<td width=3D"150" valign=3D"top" align=3D"left"><p style=3D"font-fami=
+ly:Arial,Tahoma,Verdana,sans-serif;font-size:14px;color:#000000;margin:0;pa=
+dding:0;font-weight:bold;">Attention:</p></td>
+						<td width=3D"20" valign=3D"top" align=3D"left">&nbsp;</td>
+						<td width=3D"440" valign=3D"top" align=3D"left"><p style=3D"font-fami=
+ly:Arial,Tahoma,Verdana,sans-serif;font-size:14px;color:#000000;margin:0;pa=
+dding:0;font-weight:normal;">Jamey Tomblin - estimating@michmech.com</p></t=
+d>
+					</tr>
+					<tr>
+						<td width=3D"150" valign=3D"top" align=3D"left"><p style=3D"font-fami=
+ly:Arial,Tahoma,Verdana,sans-serif;font-size:14px;color:#000000;margin:0;pa=
+dding:0;font-weight:bold;">Company:</p></td>
+						<td width=3D"20" valign=3D"top" align=3D"left">&nbsp;</td>
+						<td width=3D"440" valign=3D"top" align=3D"left"><p style=3D"font-fami=
+ly:Arial,Tahoma,Verdana,sans-serif;font-size:14px;color:#000000;margin:0;pa=
+dding:0;font-weight:normal;">Michigan Mechanical Ventures</p></td>
+					</tr>
+					<tr><td width=3D"610" colspan=3D"3" valign=3D"top" align=3D"left">&nbs=
+p;</td></tr>
+					<tr>
+						<td width=3D"610" colspan=3D"3" valign=3D"top" align=3D"left"><p styl=
+e=3D"font-family:Arial,Tahoma,Verdana,sans-serif;font-size:14px;color:#0000=
+00;margin:0;padding:0;font-weight:bold;">You have been invited to bid:</p><=
+/td>
+					</tr>
+					<tr>
+						<td width=3D"610" colspan=3D"3" valign=3D"top" align=3D"left"><p styl=
+e=3D"font-family:Arial,Tahoma,Verdana,sans-serif;font-size:14px;color:#0000=
+00;margin:0;padding:0;font-weight:normal;">Burlington - Louisville, KY</p><=
+/td>
+					</tr>
+					<tr><td width=3D"610" colspan=3D"3" valign=3D"top" align=3D"left">&nbs=
+p;</td></tr>
+					<tr>
+						<td width=3D"150" valign=3D"top" align=3D"left"><p style=3D"font-fami=
+ly:Arial,Tahoma,Verdana,sans-serif;font-size:14px;color:#000000;margin:0;pa=
+dding:0;font-weight:bold;">Bid Due Date:</p></td>
+						<td width=3D"20" valign=3D"top" align=3D"left">&nbsp;</td>
+						<td width=3D"440" valign=3D"top" align=3D"left"><p style=3D"font-fami=
+ly:Arial,Tahoma,Verdana,sans-serif;font-size:14px;color:#000000;margin:0;pa=
+dding:0;font-weight:normal;"><img src=3D"https://app.isqft.com/services/mai=
+l/emailtoken?id=3DApgLTX9O3EDnE7_0byILpA4TFuaDj2vGZFtTwG7ozUy5holhrvjPiYgGL=
+pdyy_hmCzAdHlSY26V9MPjL07ObZ09XxXcRm2odHfWB0vpDmzyV0" alt=3D"BidDateTime"><=
+/p></td>
+					</tr>
+					<tr>
+						<td width=3D"150" valign=3D"top" align=3D"left"><p style=3D"font-fami=
+ly:Arial,Tahoma,Verdana,sans-serif;font-size:14px;color:#000000;margin:0;pa=
+dding:0;font-weight:bold;">Project Location:</p></td>
+						<td width=3D"20" valign=3D"top" align=3D"left">&nbsp;</td>
+						<td width=3D"440" valign=3D"top" align=3D"left"><p style=3D"font-fami=
+ly:Arial,Tahoma,Verdana,sans-serif;font-size:14px;color:#000000;margin:0;pa=
+dding:0;font-weight:normal;"><img src=3D"https://app.isqft.com/services/mai=
+l/emailtoken?id=3DAn5s0YJ48yCN2wCnqZxKTjcuftm5gRLt-efrNaAvskHceOwmAIcWqBcLg=
+xgSno2LTTP-ENLIvG3cnMN06ly2idY9q7_oZsqOL0dUySjGOAwD0" alt=3D"ProjectLocatio=
+n"></p></td>
+					</tr>
+					<tr>
+						<td width=3D"150" valign=3D"top" align=3D"left"><p style=3D"font-fami=
+ly:Arial,Tahoma,Verdana,sans-serif;font-size:14px;color:#000000;margin:0;pa=
+dding:0;font-weight:bold;">Project Start Date:</p></td>
+						<td width=3D"20" valign=3D"top" align=3D"left">&nbsp;</td>
+						<td width=3D"440" valign=3D"top" align=3D"left"><p style=3D"font-fami=
+ly:Arial,Tahoma,Verdana,sans-serif;font-size:14px;color:#000000;margin:0;pa=
+dding:0;font-weight:normal;"></p></td>
+					</tr>
+					<tr>
+						<td width=3D"150" valign=3D"top" align=3D"left"><p style=3D"font-fami=
+ly:Arial,Tahoma,Verdana,sans-serif;font-size:14px;color:#000000;margin:0;pa=
+dding:0;font-weight:bold;">Contact:</p></td>
+						<td width=3D"20" valign=3D"top" align=3D"left">&nbsp;</td>
+						<td width=3D"440" valign=3D"top" align=3D"left"><p style=3D"font-fami=
+ly:Arial,Tahoma,Verdana,sans-serif;font-size:14px;color:#000000;margin:0;pa=
+dding:0;font-weight:normal;">Estimating Team</p></td>
+					</tr>
+					<tr><td width=3D"610" colspan=3D"3" valign=3D"top" align=3D"left">&nbs=
+p;</td></tr>
+					<tr>
+						<td width=3D"610" colspan=3D"3" valign=3D"top" align=3D"left"><p styl=
+e=3D"font-family:Arial,Tahoma,Verdana,sans-serif;font-size:14px;color:#0000=
+00;margin:0;padding:0;font-weight:bold;">Description:</p></td>
+					</tr>
+					<tr>
+						<td width=3D"610" colspan=3D"3" valign=3D"top" align=3D"left"><p styl=
+e=3D"font-family:Arial,Tahoma,Verdana,sans-serif;font-size:14px;color:#0000=
+00;margin:0;padding:0;font-weight:normal;"><p><span style=3D"font-family: A=
+rial; font-size: small"></span></p><p><strong><span style=3D"color: rgba(54=
+, 48, 49, 1)"><span style=3D"text-decoration-line: underline"><span style=
+=3D"font-size: 48px"><span style=3D"font-family: &quot;Gilda Display&quot;,=
+ serif">INVITATION TO BID</span></span></span></span></strong></p><p>&nbsp;=
+</p><p><strong><span style=3D"color: rgba(54, 48, 49, 1)"><span style=3D"fo=
+nt-family: &quot;Gilda Display&quot;, serif">We are bidding on a </span></s=
+pan><span style=3D"color: rgba(54, 48, 49, 1)"><span style=3D"font-family: =
+&quot;Gilda Display&quot;, serif">Burlington in Louisville, KY</span></span=
+><span style=3D"color: rgba(54, 48, 49, 1)"><span style=3D"font-family: &qu=
+ot;Gilda Display&quot;, serif"> and would like to formally request your pro=
+posal for your scope(s) of
+work.</span></span></strong></p><p>&nbsp;</p><p><strong>Burlington - Louisv=
+ille, KY - Bids Due 10/15/25 (Estimated Start 12/8/25) </strong></p><p><str=
+ong><span style=3D"color: rgba(54, 48, 49, 1)"><span style=3D"font-family: =
+&quot;Gilda Display&quot;, serif">https://www.dropbox.com/scl/fo/l2kn1eywxi=
+mmzfegn1bpm/ADnf9zOg2u2hT6LqrdwfPYk?rlkey=3D0hnx2bnwxpq2nd8sfztpmjvlu&amp;d=
+l=3D0</span></span></strong></p><p>&nbsp;</p><p><strong><span style=3D"colo=
+r: rgba(54, 48, 49, 1)"><span style=3D"font-family: &quot;Gilda Display&quo=
+t;, serif">Please submit all bids to estimating@summitgc.net or email us he=
+re for any questions you may have regarding this project. </span></span></s=
+trong></p><p>&nbsp;</p><p><strong><span style=3D"color: rgba(54, 48, 49, 1)=
+"><span style=3D"font-family: &quot;Gilda Display&quot;, serif">If you requ=
+ire plan support, have questions, or need clarification please contact Matt=
+hew at 678-314-6074 or matthew.dodd@summitgc.net</span></span></strong></p>=
+</p></td>
+					</tr>
+					<tr><td width=3D"610" colspan=3D"3" valign=3D"top" align=3D"left">&nbs=
+p;</td></tr>
+					<tr>
+						<td width=3D"610" colspan=3D"3" valign=3D"top" align=3D"left"><p styl=
+e=3D"font-family:Arial,Tahoma,Verdana,sans-serif;font-size:14px;color:#0000=
+00;margin:0;padding:0;font-weight:bold;">Message to Bidders:</p></td>
+					</tr>
+					<tr>
+						<td width=3D"610" colspan=3D"3" valign=3D"top" align=3D"left"><p styl=
+e=3D"font-family:Arial,Tahoma,Verdana,sans-serif;font-size:14px;color:#0000=
+00;margin:0;padding:0;font-weight:normal;">INVITATION TO BID<br><br><br><br=
+>We are bidding on a Burlington in Louisville, KY and would like to formall=
+y request your proposal for your scope(s) of work.<br><br><br><br>Burlingto=
+n - Louisville, KY - Bids Due 10/17/25 (Estimated Start 12/8/25) <br><br>ht=
+tps://www.dropbox.com/scl/fo/l2kn1eywximmzfegn1bpm/ADnf9zOg2u2hT6LqrdwfPYk?=
+rlkey=3D0hnx2bnwxpq2nd8sfztpmjvlu&amp;dl=3D0<br><br><br><br>Please submit a=
+ll bids to estimating@summitgc.net or email us here for any questions you m=
+ay have regarding this project. <br><br><br><br>If you require plan support=
+, have questions, or need clarification please contact Matthew at 678-314-6=
+074 or matthew.dodd@summitgc.net</p></td>
+					</tr>
+
+				</table>
+		</td>
+		<td width=3D"20" valign=3D"top" align=3D"left">&nbsp;</td>
+	</tr>
+	<tr><td colspan=3D"3" width=3D"650" valign=3D"top" align=3D"left">&nbsp;</=
+td></tr>
+</table>
+<!-- END PROJECT INFO -->
+
+ <table width=3D"650" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+    <tr>
+        <td width=3D"20" valign=3D"top" align=3D"left">
+            &nbsp;
+        </td>
+        <td width=3D"610" valign=3D"top" align=3D"left">
+            <table width=3D"610" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" style=3D"background-color: #3a6ea5;">
+                <tr>
+                    <td width=3D"610" valign=3D"top" align=3D"center">
+                        <h3 style=3D"font-family: Arial,Tahoma,Verdana,sans=
+-serif; font-size: 24px; color: #FFFFFF;
+                            margin-bottom: 10px; margin-top: 20px; padding:=
+ 0; font-weight: normal;">
+                            <a style=3D"color: #FFFFFF;" href=3D"https://ap=
+p.isqft.com/services/Access/GetUserQANAccess?sourceType=3D2&amp;Id=3DKVWR8J=
+Z1&amp;ProjectID=3D6667379">Click here to view the project</a></h3>
+                    </td>
+                </tr>
+                  <tr>
+                    <td align=3D"center" style=3D"padding-bottom: 10px; fon=
+t-family: Arial,Tahoma,Verdana,sans-serif;
+                        font-size: 12px; font-weight: normal; color: #FFFFF=
+F;">
+                        Access Number: KVWR-8JZ1
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <td width=3D"20" valign=3D"top" align=3D"left">
+            &nbsp;
+        </td>
+    </tr>
+    <tr>
+        <td colspan=3D"3" width=3D"650" valign=3D"top" align=3D"left">
+            &nbsp;
+        </td>
+    </tr>
+</table>
+ <table width=3D"650" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr>=
+<td width=3D"20" valign=3D"top" align=3D"left">&nbsp;</td><td width=3D"610"=
+ valign=3D"top" align=3D"left"><table width=3D"610" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" style=3D"background-color:#dfdfdf;border:1px soli=
+d #959595;"><tr><td width=3D"610" valign=3D"top" align=3D"center" style=3D"=
+padding-top:10px;padding-bottom:8px;"><p style=3D"font-family:Arial,Tahoma,=
+Verdana,sans-serif;font-size:12px;color:#000000;margin-bottom:6px;padding:0=
+;font-weight:normal;">Let us know your bid intention here:</p><a href=3D"ht=
+tps://app.isqft.com/services/go/ResponseLink/KVWR8JZ1/6667379/1"><img src=
+=3D"https://app.isqft.com/services/document/getpublicdocument/106" width=3D=
+"82" height=3D"22" alt=3D"Will Bid" border=3D"0"></a>&nbsp;&nbsp;&nbsp;&nbs=
+p;<a href=3D"https://app.isqft.com/services/go/ResponseLink/KVWR8JZ1/666737=
+9/2"><img src=3D"https://app.isqft.com/services/document/getpublicdocument/=
+103" width=3D"118" height=3D"22" alt=3D"Under Review" border=3D"0"></a>&nbs=
+p;&nbsp;&nbsp;&nbsp;<a href=3D"https://app.isqft.com/services/go/ResponseLi=
+nk/KVWR8JZ1/6667379/3"><img src=3D"https://app.isqft.com/services/document/=
+getpublicdocument/104" width=3D"95" height=3D"22" alt=3D"Won't Bid" border=
+=3D"0"></a></td></tr></table></td><td width=3D"20" valign=3D"top" align=3D"=
+left">&nbsp;</td></tr><tr><td colspan=3D"3" width=3D"650" valign=3D"top" al=
+ign=3D"left">&nbsp;</td></tr></table> <table width=3D"650" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0"><tr><td width=3D"20" valign=3D"top" align=
+=3D"left">&nbsp;</td><td width=3D"610" valign=3D"top" align=3D"left"><h2 st=
+yle=3D"font-family:Arial,Tahoma,Verdana,sans-serif;font-size:14px;color:#00=
+0000;margin-bottom:10px;margin-top:20px;padding:0;font-weight:bold;">Docume=
+nts referenced in this transmittal:</h2> 	<p style=3D"font-family:Arial,Tah=
+oma,Verdana,sans-serif;font-size:12px;color:#000000;margin:0;padding:0;font=
+-weight:normal;"><a href=3D"https://app.isqft.com/services/go/DocumentLinks=
+?fileid=3D85780687&amp;type=3DDrawing&amp;qan=3DKVWR8JZ1" style=3D"color:#3=
+a6ea5;">1.0 Full Set Burlington 1793 Louisville KY.pdf</a></p> 	<p style=3D=
+"font-family:Arial,Tahoma,Verdana,sans-serif;font-size:12px;color:#000000;m=
+argin:0;padding:0;font-weight:normal;"><a href=3D"https://app.isqft.com/ser=
+vices/go/DocumentLinks?fileid=3D85780686&amp;type=3DDrawing&amp;qan=3DKVWR8=
+JZ1" style=3D"color:#3a6ea5;">2.0 Spec Book Burlington 1793 Louisville KY.p=
+df</a></p> 	<p style=3D"font-family:Arial,Tahoma,Verdana,sans-serif;font-si=
+ze:12px;color:#000000;margin:0;padding:0;font-weight:normal;"><a href=3D"ht=
+tps://app.isqft.com/services/go/DocumentLinks?fileid=3D85780683&amp;type=3D=
+Drawing&amp;qan=3DKVWR8JZ1" style=3D"color:#3a6ea5;">3.0 Asbestos Survey Bu=
+rlington 1793 Louisville KY.pdf</a></p> 	<p style=3D"font-family:Arial,Taho=
+ma,Verdana,sans-serif;font-size:12px;color:#000000;margin:0;padding:0;font-=
+weight:normal;"><a href=3D"https://app.isqft.com/services/go/DocumentLinks?=
+fileid=3D85780685&amp;type=3DDrawing&amp;qan=3DKVWR8JZ1" style=3D"color:#3a=
+6ea5;">3.1 HVAC Survey Burlington 1793 Louisville KY.pdf</a></p>
+	<p style=3D"font-family:Arial,Tahoma,Verdana,sans-serif;font-size:12px;col=
+or:#000000;margin:0;padding:0;font-weight:normal;"><a href=3D"https://app.i=
+sqft.com/services/go/DocumentLinks?fileid=3D85780684&amp;type=3DDrawing&amp=
+;qan=3DKVWR8JZ1" style=3D"color:#3a6ea5;">3.2 Roof Survey Burlington 1793 L=
+ouisville KY.pdf</a></p> 	<p style=3D"font-family:Arial,Tahoma,Verdana,sans=
+-serif;font-size:12px;color:#000000;margin:0;padding:0;font-weight:normal;"=
+><a href=3D"https://app.isqft.com/services/go/DocumentLinks?fileid=3D857806=
+82&amp;type=3DDrawing&amp;qan=3DKVWR8JZ1" style=3D"color:#3a6ea5;">3.3 Plum=
+bing Survey Burlington 1793 Louisville KY.doc</a></p>  </td><td width=3D"20=
+" valign=3D"top" align=3D"left">&nbsp;</td></tr><tr><td colspan=3D"3" width=
+=3D"650" valign=3D"top" align=3D"left">&nbsp;</td></tr></table><table width=
+=3D"650" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+                <tr><td colspan=3D"3" width=3D"650" valign=3D"top" align=3D=
+"left">&nbsp;</td></tr>
+                <tr>
+                                <td width=3D"20" valign=3D"top" align=3D"le=
+ft">&nbsp;</td>
+                                <td width=3D"610" valign=3D"top" align=3D"l=
+eft">
+                                                <p style=3D"font-family:Ari=
+al,Tahoma,Verdana,sans-serif;font-size:12px;color:#000000;margin:0;padding:=
+0;font-weight:normal;">For help, visit <a href=3D" http://www.isqft.com/sta=
+rt/pages/contact-support//" style=3D"color:#3a6ea5;"> http://www.isqft.com/=
+start/pages/contact-support/</a> or call us at (877) 4CC-TOOL (422-8665).</=
+p>
+                                </td>
+                                <td width=3D"20" valign=3D"top" align=3D"le=
+ft">&nbsp;</td>
+                </tr>
+</table>
+<table width=3D"650" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+                <tr>
+                                <td width=3D"650" valign=3D"top"><img src=
+=3D"https://app.isqft.com/services/document/getpublicdocument/107" height=
+=3D"58" width=3D"650" alt=3D"iSqFt - Your Connection to Improved Profits" b=
+order=3D"0"></td>
+                </tr>
+</table>
+<table width=3D"650" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><=
+td width=3D"650" valign=3D"top" align=3D"left">&nbsp;</td></tr><tr><td widt=
+h=3D"650" valign=3D"top" align=3D"left"><p style=3D"font-family:Arial,Tahom=
+a,Verdana,sans-serif;font-size:11px;color:#000000;margin:0;padding:0;font-w=
+eight:normal;">If you do not wish to receive further iSqFt messages, unsubs=
+cribe by <a href=3D"https://app.isqft.com/services/go/UI_Unsubscribe?p=3DAk=
+zxCI7JOLichifj2KpRqc71RQO%2fWlJG%2f72vcXZW2Z22sekVhCoZSJTYKGt%2f1DC2BZ31WQw=
+ob2%2bLJRW1O3qpVDRWnSv2azIroFw2genFU2EmSCNwhxfWhZqdO0y%2fXnOSQA%3d%3d&amp;z=
+=3Da14275f3-6984-47ff-92e8-68f82d072f1c" style=3D"color:#3a6ea5;">clicking =
+here</a> or by calling 1-888-768-4569. If you would like to change or edit =
+your preferences for this or other iSqFt accounts, please visit the <strong=
+>My Profile</strong> page after logging in. To learn more about the use of =
+personal information by iSqFt, please read our <a href=3D"http://www.isqft.=
+com/home/privacy_policy.htm" style=3D"color:#3a6ea5;">Privacy Policy</a>.</=
+p></td></tr><table>
+<img src=3D"https://app.isqft.com/services/mail/UI_TrackMessageRead?id=3Da1=
+4275f3-6984-47ff-92e8-68f82d072f1c.gif" width=3D"1" height=3D"1" alt=3D"iSq=
+Ft" style=3D"display:none"><img src=3D"https://u15373425.ct.sendgrid.net/wf=
+/open?upn=3Du001.e9Yc6ZulNZtDZhGScSruBKO2OQrO-2FfcGWzCnsxpuHSpc7VuNu7-2Blaa=
+-2Fys0auCINEz2HEWHs5NWKZ8zz5hSBlnx0McoH9DzRV24sXO0KFXYVG-2BBqdaTR-2BehNxZYj=
+nt2bZZfPha7kIvaEmJZGKfQ7dXKT8c1fMAvujd-2FsSV-2BIwgEsmkUwIsDlAIkF-2FV6y3aOYY=
+HaCIn90hWX3hmHTG-2Bg0LegeORDtrRUD0JhYwFjiqZE7qmYmEgJy6PIo46UjVpLcG-2BORfsID=
+Mtj2rQGcc2hyfJQ-3D-3D" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=
+=3D"height:1px !important;width:1px !important;border-width:0 !important;ma=
+rgin-top:0 !important;margin-bottom:0 !important;margin-right:0 !important;=
+margin-left:0 !important;padding-top:0 !important;padding-bottom:0 !importa=
+nt;padding-right:0 !important;padding-left:0 !important;"></body></html>
