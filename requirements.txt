@@ -1,0 +1,22 @@
+# Core dependencies for email RAG pipeline
+pandas>=1.3.0
+numpy>=1.21.0
+
+# Email parsing
+python-msg-parser>=1.0.0
+
+# Vector operations and embeddings (optional - uncomment as needed)
+# sentence-transformers>=2.2.0
+# faiss-cpu>=1.7.0
+# torch>=1.9.0
+
+# Jupyter notebook support
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# Google Colab support (if running in Colab)
+# google-colab>=1.0.0
+
+# Additional utilities
+pathlib2>=2.3.0
+typing-extensions>=3.10.0
